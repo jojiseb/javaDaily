@@ -13,5 +13,20 @@ public class Wrapper_Class1 {
         String e = "f";
         char c = e.charAt(0);   //No
         System.out.println(c);
+
+        String f = "3.45f";
+        System.out.println(f+10.9f);
+
+        float fl = Float.parseFloat(f); //Converting String to primitive type float
+        System.out.println(fl+10.9f);       //String to primitive type conversion , use parseType()
+
+        String p = "123";
+        System.out.println(p);
+
+        Integer integer = Integer.valueOf(p);
+        System.out.println(integer+p);
+
+        String nu = Integer.toString(num);  //400
+        System.out.println(nu+8);       //4008
     }
 }
