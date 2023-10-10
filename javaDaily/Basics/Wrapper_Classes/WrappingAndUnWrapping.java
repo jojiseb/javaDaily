@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class WrappingAndUnWrapping {
     public static void main(String[] args) {
         int a = 34;
@@ -12,5 +15,12 @@ public class WrappingAndUnWrapping {
 
         Integer e = new Integer(q);
         System.out.println(e);
+
+        List<Integer> arr = new ArrayList<>();
+        arr.add(56);    //primitive value will be automatically/internally converted
+                    //to Wrapper classes by valueOf(), before stored in arr
+                //Earlier, it needed manual conversion before storing
+
+
     }
 }
