@@ -38,7 +38,20 @@ public class PrimitiveToWrapper {
 
         //Here,Internal usage of valueOf() to facilitate conversion
 
+        Double dou = new Double(64.75883);
 
+        Double df = Double.valueOf(89.36070);
 
+        Integer vs = 4;                         //Both these are same - one is auto-boxing , other is manual conversion
+        Integer d = Integer.valueOf(4);
+
+        int cas = 45;
+
+        check(cas);         //auto-boxing is done when passing a primitive to a method which expects a Wrapper or when
+    }                       //assigning it to a Wrapper variable
+
+    static void check(Integer it) {
+        Integer gh = it;
+        System.out.println("gh : "+gh);
     }
 }

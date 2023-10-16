@@ -62,6 +62,50 @@ public class CasesToAvoidAutoBoxing {
 
         int ed = 12;
         Integer ik = doCheck(ed);
+
+        ArrayList<Integer> items = new ArrayList<>();
+        for(int j = 0; j < 10000; j++) {
+            items.add(j);   //auto-boxing happens just before storing - type changes from primitive to Integer
+        }                 //leads to creation of lot of objects since, auto-boxing is Integer newItem = new Integer(j);..So, m/y intensive
+
+        int[] io = new int[10000];
+        for(int kl = 0; kl < 10000; kl++) {
+            io[kl] = kl;
+        }
+
+        Integer ee = 27;
+        Integer ff = 9;
+                                //We are auto-boxing and un-boxing here , multiple times
+        Integer kk = ee/ff;
+
+        int ll = 27;
+        int yy = 9;
+
+        int re = ll/yy;         //Just use primitives for arithmetic operations and use Wrapper when necessary
+
+        Integer aa = Integer.valueOf(re);
+
+        Double kb = 56.67;
+        Double ax = 56.67;
+
+        if(kb == ax) {
+            System.out.println("kb == ax");
+        }
+        else {
+            System.out.println("kb != ax"); //They aren't equal even if same values , since primitives are auto-boxed to wrappers
+        }                                   //And during this process, new objects are created, creating different object references.
+
+        boolean red = (kb == ax) ? true : false;
+
+        List<Integer> one = new ArrayList<>();
+        for (int p = 0; p < 10000; p++) {
+            one.add(new Integer(p));
+        }
+
+        List<Integer> two = new ArrayList<>();
+        for(int b = 1; b < 10000; b++) {
+            two.add(Integer.valueOf(b));    // Usage of static factory method to convert prim to wrapper by manual conversion
+        }                                   // is preferred over auto-boxing
     }
 
     public static int doSome(int f) {
