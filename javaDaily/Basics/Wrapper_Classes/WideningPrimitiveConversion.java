@@ -13,5 +13,25 @@ public class WideningPrimitiveConversion {
 
         double r = e;
 
+        byte p = 127;
+
+        int h = p;  //During Widening, the smaller primitive value is placed
+                        //over larger container
+        byte g = -128;
+
+        long jk = g;    //Moving to a wider primitive does not lose any information
+
+        short v = 32767;
+
+        float hn = v;
+
+        short j = -32768;
+
+        double cv = j;
+
+        float my = 45;
+
+        double as = my;
+
     }
 }

@@ -7,8 +7,34 @@ public class NarrowingPrimitiveConversion {
 
         //So, We need to explicitly express that we are aware of data-loss , and use cast correctly
 
-        int w = 78;
+        long q = 678988900;
 
-        byte by = (byte) w;
+        System.out.println("long q : "+q);
+
+        int w = (int) q;
+
+        System.out.println("int w : "+w);
+
+        int e = 567;
+
+        System.out.println(e);
+
+        byte r = (byte) e;
+
+        System.out.println(r);
+
+        short t = (short) e;
+
+        System.out.println(t);
+
+        double df = 765.78;
+        System.out.println(df);
+        int jl = (int) df;
+
+        System.out.println(jl);
+
+        long hk = (long) df;
+
+        System.out.println(hk);
     }
 }
