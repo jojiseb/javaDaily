@@ -2,22 +2,30 @@ public class StringToPrimitive {
     public static void main(String[] args) {
         //Going back from String to primitive , use parseType() --- parseInt(), parseFloat(), parseDouble() etc
 
-        int q = 12;
+        int q = 1;
+        String s1 = Integer.toString(q);
+        int p1 = Integer.parseInt(s1);
 
-        String w = Integer.toString(q);
+        float w = 89.78f;
+        String s2 = Float.toString(w);
+        float p2 = Float.parseFloat(s2);
 
-        int p1 = Integer.parseInt(w);
+        double e = 45469.566;
+        String s3 = Double.toString(e);
+        double p3 = Double.parseDouble(s3);
 
-        float e = 5.67f;
+        short r = 23;
+        String s4 = Short.toString(r);
+        short p4 = Short.parseShort(s4);
 
-        String w1 = Float.toString(e);
+        long t = 86956985;
+        String s5 = Long.toString(t);
+        long p5 = Long.parseLong(s5);
 
-        float p2 = Float.parseFloat(w1);
+        char y = '\n';
+        String s6 = Character.toString(y);
+        char p6 = s6.charAt(0);     //No need to parse methods here to obtain primitive from String here, since char is already available
+                                        //from String as String.charAt(index);
 
-        double r = 455.67;
-
-        String w2 = Double.toString(r);
-
-        double p3 = Double.parseDouble(w2);
     }
 }
