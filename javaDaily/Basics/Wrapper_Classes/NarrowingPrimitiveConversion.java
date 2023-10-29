@@ -11,7 +11,7 @@ public class NarrowingPrimitiveConversion {
 
         System.out.println("long q : "+q);
 
-        int w = (int) q;
+        int w = (int) q;    //lossy conversion, so we explicitly cast to denote we are aware & okay with it
 
         System.out.println("int w : "+w);
 
