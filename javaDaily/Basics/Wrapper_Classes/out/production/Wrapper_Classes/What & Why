@@ -14,11 +14,11 @@ What ?
             Primitives are made to be light-weight, store fixed value, easily predictable
             behaviour. Eg: int behaves as an integer and mathematical operations on it work
             as such.
-                   More methods n props should make it less predictable
+                   More methods n props makes it less predictable
 
            So, Basically the need for methods on these types is solved by Wrapper Classes
 
-           So, We can call multiple methods like compareTo(), equals(),toString() etc.
+           So, We can call multiple methods/perform operations like compareTo(), equals(),toString() etc.
     ->  Objects can have null values where primitives can't:
                 Integer a = null;
                 int b = null // throw error

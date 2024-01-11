@@ -19,7 +19,7 @@ public class WrappingAndUnWrapping {
         List<Integer> arr = new ArrayList<>();
         arr.add(56);    //primitive value will be automatically/internally converted
                     //to Wrapper classes by valueOf(), before stored in arr
-                //Earlier, it needed manual conversion before storing
+                //Earlier, it needed manual conversion before storing like arr.add(new Integer(56));
 
 
     }

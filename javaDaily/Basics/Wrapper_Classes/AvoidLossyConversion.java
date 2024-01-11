@@ -13,7 +13,9 @@ public class AvoidLossyConversion {
     }
 
     public short getNum(long l) {
+        System.out.println("l : "+l);
         num = (short) l;
+        System.out.println("num : "+num);
         return num;
     }
 }

@@ -2,7 +2,7 @@ public class PassingObject {
     public static void main(String[] args) {
         Person person = new Person(5,"Jane");
         System.out.println("Before modify..");
-        System.out.println("Name : "+person.getName()+", Roll : "+person.getName());
+        System.out.println("Name : "+person.getName()+", Roll : "+person.getRollNo());
         modify(person);
         System.out.println("Returning from modify : ");
         System.out.println("Name : "+person.getName()+", Roll No : "+person.getRollNo());
