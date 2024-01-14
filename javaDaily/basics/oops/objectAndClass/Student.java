@@ -1,9 +1,12 @@
+package objectAndClass;
+
 public class Student {
     private int id;
     private String name;
 
     Student(String n) {
         this.name = n;
+        System.out.println("\n"+this.getClass().getName());
     }
 
     private void setId(int identity) {
@@ -19,7 +22,7 @@ public class Student {
         return name;
     }
     public void studentDetails() {
-        System.out.println("\nId : "+id+", Name : "+getName());
+        System.out.println("Id : "+id+", Name : "+getName());
     }
 
     public static void main(String[] args) {
@@ -27,5 +30,6 @@ public class Student {
         student.studentDetails();
         student.setId(21);
         student.studentDetails();
+        System.out.println();
     }
 }

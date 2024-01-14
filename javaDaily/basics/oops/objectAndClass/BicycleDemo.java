@@ -1,3 +1,5 @@
+package objectAndClass;
+
 public class BicycleDemo {
     public static void main(String[] args) {
         Bicycle one = new Bicycle();
