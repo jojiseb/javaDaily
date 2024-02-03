@@ -15,7 +15,7 @@ class Parent extends Grandparent {
 class Child extends Parent {
     public void print() {
 //        super.super.print();  //violates encapsulation
-        super.print();      //you can always access parent's members, through that the grand parent's
+        super.print();      //you can always access grand parent's members, through that the parent's
         System.out.println("Child's print");    //Not the other way
     }
 }
