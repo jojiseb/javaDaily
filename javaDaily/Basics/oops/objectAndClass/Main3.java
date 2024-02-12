@@ -15,6 +15,8 @@ public class Main3 {
         System.out.println(Arrays.toString(employees)); // which is not initialising an object -- null is the default value
         Employee employee = new Employee(); // LHS happens @ Compile time -- reference variable created
         //RHS happens @ run-time -- allocates m/y @ rum-time
+        
+        //You can only access variables via dot operator which are present in class Template, like eNo,empName, empDept
 
         System.out.println("Emp No : "+employee.eNo);    // 0
         System.out.println("Name : "+employee.empName); // null
@@ -26,6 +28,11 @@ public class Main3 {
         System.out.println("Name : "+employee.empName); //Sal
 
         System.out.println("Dept : "+employee.empDept); // Product -- default value of instance variable
+
+        //When using instance variables, the value of variables are first checked in object created,whether they exist..
+        //If they don't, then use default valued for them i.e., 0 for int, null for String
+
+        //It will print the value present in instance variable over default value if it is available in Object
     }
     // new - allocates m/y @ run-time (dynamic m/y allocation) & returns a reference to it
 }
