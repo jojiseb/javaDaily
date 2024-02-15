@@ -1,0 +1,4 @@
+Why Primitives in java are not created using new keyword ?
+
+In java , primitive data types are not implemented as Objects. Objects are stored in heap memory.
+Primitives are stored in stack memory. Primitives are basic data types built for efficiency & performance of language.
