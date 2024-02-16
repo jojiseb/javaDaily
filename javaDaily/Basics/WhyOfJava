@@ -2,3 +2,18 @@ Why Primitives in java are not created using new keyword ?
 
 In java , primitive data types are not implemented as Objects. Objects are stored in heap memory.
 Primitives are stored in stack memory. Primitives are basic data types built for efficiency & performance of language.
+
+ - As more frequently used data types, keeping primitives in stack made sense as its faster to access than heap where objects are stored.
+ - Primitives take up less m/y compared to Objects. Where High performance is critical, using primitives is advantageous over Objects.
+ - Here, object Oriented functionalities are not expected, so predictable behaviour
+ - No Overhead of object creation & garbage collection.
+
+ Why Stack is faster than Heap ?
+
+ M/y Allocation in stack is done by simply moving stack pointer up/down, very fast.
+
+ Allocation/de-allocation of objects in heap is more complex as it needs to keeps track of free blocks, merging adjacent free blocks, and searching for suitable block in memory.
+
+ Stack m/y is organized and accessed in a predictable manner, Heap is not as objects are allocated, freed in any order, leading to a scattered m/y layout.
+
+ Objects on heap have additional m/y overhead, as system needs to maintain Object metadata like size & layout info for garbage collection.

@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/basics/oops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/basics/wrapper_classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basics/Wrapper_Examples" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
