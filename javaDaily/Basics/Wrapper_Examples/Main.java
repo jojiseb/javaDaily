@@ -22,9 +22,9 @@ public class Main {
         int a = 11;
 
         System.out.println("Before swapping : \na : "+a+"\nc : "+c);
-        swap(a,c);                                      // Here, Swapping doesn't work as primitive types are pass-by-value
+        swap(a,c);                                      // Here, Swapping doesn't work as primitive types are pass-by-value (copy of original is passed)
         System.out.println("After swapping : \na : "+a+"\nc : "+c); // So, Even if swapping happens, it is just scoped to the swap(),
-                                                                    // and initial values before swapping remains retained
+                                                                    // and main() retains original values
 
     }
 
