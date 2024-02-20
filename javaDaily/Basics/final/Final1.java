@@ -20,6 +20,6 @@ public class Final1 {
 
         System.out.println("Check : \n"+check);
 
-//        check = new Check();  -  You can re-assign final object to a new object
+//        check = new Check();  -  You cannot re-assign final object to a new object, for a non-primitive Object
     }
 }
