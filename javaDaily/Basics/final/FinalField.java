@@ -1,7 +1,9 @@
 
 class P {
-    static final int MAX_SIZE = 120;
-
+    static final int MAX_SIZE = 120; //final fields can either be - constants or write-once field
+                                    //You write once - while declaration
+                                    //               - instance initializer block
+                                    //               - static initializer block
     static final String MEASURE; //Static vars should be initialised while
 
     final int width; //instance vars should be initialised while declaration or constructor or instance
