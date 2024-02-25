@@ -24,6 +24,7 @@ class One {
 public class FinalField1 {
     public static void main(String[] args) {
         One one = new One("Hello");
-        System.out.println("Check : "+one.check+"isSunday : "+One.isSunday+", FIRST_NUMBER : "+One.FIRST_NUMBER);
+        System.out.println("Check : "+one.check+"\nisSunday : "+One.isSunday+"\n FIRST_NUMBER : "+One.FIRST_NUMBER);
+        System.out.println("Age : "+one.age);
     }
 }
