@@ -8,7 +8,7 @@ public class FinallyExample {
             System.out.println(e.getMessage());
         }
         finally {
-            System.out.println("Its finallls");
+            System.out.println("I get executed everytime !!");
         }
     }
 }
