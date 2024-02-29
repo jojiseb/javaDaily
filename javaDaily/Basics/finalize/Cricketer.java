@@ -21,14 +21,15 @@ class CricketerDemo { //finalize() - for garbage collecting/destroying unreferen
 
     protected void finalize() { //To execute just before garbage collector, for clean up processing
         System.out.println(this.hashCode()+" of "+this.getClass().getSimpleName()+" gets destroyed");
-    }   //finalize() is invoked each time before an Object is garbage collected
+    }   //finalize() --> invoked each time before an Object is garbage collected
+        // Can be used for clean up processing
 }
 
 public class Cricketer {
     public static void main(String[] args) {
         System.out.println();
         CricketerDemo cd = new CricketerDemo();
-        cd = null; // object cd is de-referenced & made eligible gor gc
+        cd = null; // object cd is de-referenced & made eligible for gc
 
         CricketerDemo cd1 = new CricketerDemo();
         CricketerDemo cd2 = new CricketerDemo();
@@ -36,7 +37,7 @@ public class Cricketer {
 
         new CricketerDemo();    //Gets garbage collected
         System.out.println();
-        System.gc();
+        System.gc(); //Used to invoke gc (garbage collector) for clean up processing
 
         // finalize() output won't be displayed since garbage collection is automatic process
         //If you need to force JVM to perform garbage collection, it needs to use System.gc();
