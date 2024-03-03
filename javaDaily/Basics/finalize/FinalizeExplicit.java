@@ -12,8 +12,8 @@ public class FinalizeExplicit {
 
         finalizeExplicit1.finalize(); //Explicit call to finalize()
 
-        System.out.println("No GC, just like a normal method invocation");
-
+        System.out.println("No GC, just like a normal method invocation"); //finalize() is useful only with gc to remove object and release memory
+                                                            //All other explicit calls are just invocations, normal method calls
         System.gc();    //Implicit call to finalize()
 
         System.out.println("GC happens ! ");
