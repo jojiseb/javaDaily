@@ -15,5 +15,7 @@ public class Which {
         System.gc();    // its object s gets garbage collected
 
         System.out.println("Garbage collector is run");
+
+        //So, finalize() of class which gets garbage collected gets executed
     }
 }
