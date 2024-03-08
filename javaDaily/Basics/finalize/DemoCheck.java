@@ -8,7 +8,7 @@ public class DemoCheck {
         System.out.println("GC is getting called");
 
 //        demoCheck.finalize(); //Compiler ignores finalize() as it is called explicitly here
-        System.gc(); //and not invoked normally like it used to be using System.gc()
+        System.gc(); //and not invoked normally like it used to be using System.gc() (Implicit call)
 
         System.out.println("GC called");
     }
