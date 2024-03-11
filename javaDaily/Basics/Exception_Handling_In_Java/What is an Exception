@@ -1,0 +1,6 @@
+What ??
+    - Unwanted conditions that disrupt the flow of the program
+    - Some reasons for exception:
+      --> User entered invalid data
+      --> File that needs to be opened isn't found
+      --> Network connection lost in middle of communication, JVM m/y runs out.
