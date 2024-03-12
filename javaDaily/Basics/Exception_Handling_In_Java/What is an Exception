@@ -4,3 +4,10 @@ What ??
       --> User entered invalid data
       --> File that needs to be opened isn't found
       --> Network connection lost in middle of communication, JVM m/y runs out.
+
+Types :
+    1. Checked
+    2. Unchecked
+    3. Errors
+
+
