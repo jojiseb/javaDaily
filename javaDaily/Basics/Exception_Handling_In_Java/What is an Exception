@@ -22,3 +22,16 @@ Types :
     --> Parents checking for having working pens to write exam.
 
     Eg: FileNotFoundException, InterruptedException
+
+ UnChecked Exception:
+    Exceptions which are not checked by compiler is called UnChecked Exception.
+
+    Considering exam-hall scenario, Compiler can check about Hall-Ticket, Pens for exam.
+    But, Compiler can't/won't check about Bomb blast during exam (highly unlikely, but rare to occur)
+    So, It is not checked.
+
+    Real-world analogy:
+
+    --> Bomb blast Exception
+
+    Eg: Arithmetic Exception
