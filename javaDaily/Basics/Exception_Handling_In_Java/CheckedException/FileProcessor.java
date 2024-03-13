@@ -1,11 +1,12 @@
+package CheckedException;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class FileProcessor {    //Checked exception -- Compile time issue. Letting the user handle the error.
-                                //Compile-time error
+public class FileProcessor {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("E://fileName.txt");
+        File file = new File("D://Name.txt"); //This occurred at run-time, since path is not valid
 
         FileReader fileReader = new FileReader(file);
     }

@@ -11,3 +11,14 @@ Types :
     3. Errors
 
 
+ Checked Exception:
+    Exceptions that are checked by compiler for smooth execution of program at run-time, whether programmer handled it or not.
+    Checked exceptions should be handled by the programmer. These are kind of a checking for the expected, whether programmer
+    is handling it or not.
+
+    Real-world analogies :
+
+    --> Parents checking for Hall-ticket before leaving for examination.
+    --> Parents checking for having working pens to write exam.
+
+    Eg: FileNotFoundException, InterruptedException
