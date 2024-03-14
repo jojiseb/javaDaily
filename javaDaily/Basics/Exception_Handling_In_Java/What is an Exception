@@ -37,7 +37,7 @@ Types :
 
     --> Bomb blast Exception
 
-    Eg: Arithmetic Exception
+    Eg: Arithmetic Exception, Null Pointer Exception
 
 
     ----------------------\\\\\\\\\\\\\\\\\\\\\\\\\-----------------------
@@ -47,8 +47,19 @@ Types :
     Eg: OutOfMemory Error, Linkage Error, StackOverflow Error etc..
 
     OutOfMemory is not programmers responsibility, memory must be increased by
-    system admin/some one else responsible
+    system admin/some one else responsible to increase m/y.
     ----------------------\\\\\\\\\\\\\\\\\\\\\\\----------------------
 
 
-    All Errors are unchecked
+    So, All Errors are unchecked exceptions..
+
+    So, All RunTime Exceptions and Errors belong to unchecked exceptions.
+    i.e., These won't be checked by compiler, whether handled or not
+
+    Rest Other exceptions are called Checked Exceptions
+
+    Eg: Run-time Exception - Null Pointer Exceptions, Arithmetic Exception
+
+        IndexOutOfBounds :
+        --> ArrayIndexOutOfBounds
+        --> StringIndexOutOfBounds
