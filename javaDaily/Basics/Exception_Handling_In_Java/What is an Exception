@@ -21,6 +21,9 @@ Types :
     --> Parents checking for Hall-ticket before leaving for examination.
     --> Parents checking for having working pens to write exam.
 
+    --> Security people at forest safari alerting to change blazing dress to avoid animals getting triggered and attack
+        you
+
     Eg: FileNotFoundException, InterruptedException
 
  UnChecked Exception:
@@ -35,3 +38,17 @@ Types :
     --> Bomb blast Exception
 
     Eg: Arithmetic Exception
+
+
+    ----------------------\\\\\\\\\\\\\\\\\\\\\\\\\-----------------------
+    Errors won't be asked by compiler/checked by compiler whether handled or not.
+    Because, Its out of programmers control. Errors are non-recoverable.
+
+    Eg: OutOfMemory Error, Linkage Error, StackOverflow Error etc..
+
+    OutOfMemory is not programmers responsibility, memory must be increased by
+    system admin/some one else responsible
+    ----------------------\\\\\\\\\\\\\\\\\\\\\\\----------------------
+
+
+    All Errors are unchecked
