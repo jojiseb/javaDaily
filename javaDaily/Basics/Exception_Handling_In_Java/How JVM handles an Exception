@@ -1,0 +1,6 @@
+    Java exceptions raised during program flow are nothing but objects of respective
+    exception class. Each exceptions in java have a naming and inheritance hierarchy to the main exception
+    class in java - Throwable class.
+
+    Since, All exception classes support toString() method, the name of the exception class is returned as output in command prompt,
+    which makes it helpful to understand the exception condition.

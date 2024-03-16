@@ -1,8 +1,12 @@
 What ??
-    - Unwanted conditions that disrupt the flow of the program
+    - Unwanted conditions that disrupt the flow of the program.
+    - When an exception is raised, it will halt the execution of the program.
+      and throw the occurred  exception.
+    - Can be both compile-time and run-time exceptions as well.
+
     - Some reasons for exception:
-      --> User entered invalid data
-      --> File that needs to be opened isn't found
+      --> User entered invalid data.
+      --> File that needs to be opened isn't found.
       --> Network connection lost in middle of communication, JVM m/y runs out.
 
 Types :

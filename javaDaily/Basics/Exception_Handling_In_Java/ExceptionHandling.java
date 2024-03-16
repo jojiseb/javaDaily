@@ -9,7 +9,7 @@ public class ExceptionHandling {
 
         System.out.println("End of Code..");
 
-        //Exception is handled wonderfully by the code using try-catch so that
+        //Exception is handled wonderfully by using try-catch so that
         //normal flow of the code doesn't get affected.
     }
 }
