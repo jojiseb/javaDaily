@@ -4,3 +4,12 @@
 
     Since, All exception classes support toString() method, the name of the exception class is returned as output in command prompt,
     which makes it helpful to understand the exception condition.
+
+    Whenever an exception occurs inside a method, then the name of exception class, description is send to JVM. And the exception object
+    is further handled by JVM
+
+    When an exception is occurred, there will be an ordered list of methods that have been called to reach to the point of code causing
+    the exception. This list of methods is Call Stack.
+
+    JVM searches through the call stack to get the proper code to handle the exception occurred. This code block is called Exception Handler.
+    When the handler is found, JVM handles exception according to code in handler and shows state of program.
