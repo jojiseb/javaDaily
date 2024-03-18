@@ -25,3 +25,6 @@ public class ExceptionCallStackExample {
         System.out.println("Going back to where it all started.."); // Now, Exception is displayed as in main(), because there was no handler code
     }                                               // So, Code execution is stopped after line 22 in methodC()
 }
+
+//Here, Full Call Stack is shown, entry method main and till the point which exists in a method which has caused the error ---
+//Mainly because it's not handled.
