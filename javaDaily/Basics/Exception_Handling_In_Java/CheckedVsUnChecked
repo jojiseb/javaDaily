@@ -1,0 +1,8 @@
+
+Checked :
+-->Occur at compile-time.
+-->Compiler checks for checked exceptions
+
+UnChecked :
+-->Occur at run-time.
+--> Compiler doesn't check for unchecked exception.
