@@ -2,4 +2,5 @@ Throw
 - Manually throw exception
 
 Throws
--Listing that a particular might throw these exceptions
+-Used in method signature, which might be right But,aren't handled within it.
+-Listing that a particular method might throw these exceptions
