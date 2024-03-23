@@ -1,6 +1,6 @@
 Throw
-- Manually throw exception
+- To throw an exception explicitly, by the programmer.
 
 Throws
 -Used in method signature, which might be right But,aren't handled within it.
--Listing that a particular method might throw these exceptions
+-Listing that a particular method might throw these exceptions.
