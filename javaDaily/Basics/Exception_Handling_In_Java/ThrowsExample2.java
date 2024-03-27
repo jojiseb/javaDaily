@@ -5,16 +5,16 @@ public class ThrowsExample2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter num1 : ");
-        float a = scanner.nextInt();
+        int a = scanner.nextInt();
         System.out.println("Enter num2 : ");
-        float b = scanner.nextInt();
+        int b = scanner.nextInt();
 
-        float res = divide(a,b);
+        int res = divide(a,b);
 
         System.out.println("Result : "+res);
     }
 
-    static float divide(float num1, float num2) {
+    static int divide(int num1, int num2) {
         return num1/num2;
     }
 }
