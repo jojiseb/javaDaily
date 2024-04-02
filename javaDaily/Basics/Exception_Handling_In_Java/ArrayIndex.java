@@ -11,7 +11,7 @@ public class ArrayIndex {
             int index = scanner.nextInt();
 
             if(index < 0 || index >= numbers.length) {
-                throw new ArrayIndexOutOfBoundsException("Index can't be less than 0 or greater than array length !"); //ArrayIndexOutOfBounds Exception got catched here
+                throw new ArrayIndexOutOfBoundsException("Index can't be less than 0 or greater than array length !"); //ArrayIndexOutOfBounds Exception is caught here
             }       // So, Normal flow not interrupted
             else {
                 System.out.println("Number : "+numbers[index]); //The message passed as parameter to above exception class is displayed as message in catch block..e.getMessage()
