@@ -27,7 +27,7 @@ class Phone {
         System.out.println("Phone 's destruction");
     }
 }
-public class MainTest {
+public class Main {
     public static void main(String[] args) {
         LapTop lapTop;
         Phone phone;

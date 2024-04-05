@@ -1,5 +1,9 @@
 Throw
 - To throw an exception explicitly, by the programmer.
+-The flow of execution of program immediately stops after throw statement is executed
+ and nearest try block is checked to see if it has a catch block that matches the type of exception
+-It tries to find all catch blocks until it finds a proper handler, else it transfers control to default handler
+ which halts the program flow
 
 Throws
 -Used in method signature, which might be right But,aren't handled within it.

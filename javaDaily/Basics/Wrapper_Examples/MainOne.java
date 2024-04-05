@@ -1,5 +1,5 @@
 
-public class Main {
+public class MainOne {
     public static void main(String[] args) {
         int c = 56;
 
