@@ -4,293 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn about different types of exceptions">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/CustomException1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/A1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/AA1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Args.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ArrayIndex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Autoboxing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/AvoidLossyConversion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/AvoidLossyConversionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/BaseClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/BestPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CasesToAvoidAutoBoxing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CatchException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Check.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CheckedException/FileCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CheckedException/FileProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CheckedException/SleepTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CheckedVsUnChecked" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ConcurrentModificationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Cricketer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CricketerDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Custom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CustomException1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CustomTestException$InvalidAgeForDriving.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/CustomTestException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/DemoCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/DerivedClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/EmployeeFinalize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Error" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Exception Handling" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ExceptionCallStackExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ExceptionCallStackExample1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ExceptionHandling.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ExceptionInFinalize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ExceptionNotHandled.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FileNotFoundEx1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Final.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Final1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Final2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Final3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Final4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Final5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalArguments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalField.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalField1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalForClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalRefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalVars.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalVars1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizationNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizeAsNormal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizeEx1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizeExplicit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizePractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinalizeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Finally1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Finally2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/FinallyExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/How JVM handles an Exception" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ImmutablePerson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/InvalidAgeCustomException$InvalidAgeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/InvalidAgeCustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Java.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/LapTop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/LifeTimeOfFinalizedObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/LossyConversions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Main3$MutableInteger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Main3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/MainOne$MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/MainOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Marksheet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/MultiCatch1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/MultiCatch2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/MyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/NarrowingPrimitiveConversion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/NestedTryCatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/NoSuchElementException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/NullPointerEx1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/One.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/OutOfMemoryDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/P.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/PassingObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/PassingPrimitive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/PrimitiveToStringConversions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/PrimitiveToWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Resource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ResourceMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/S.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/StringToPrimitive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowEx1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowEx2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowExample1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowsEx1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowsEx2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowsExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowsExample2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/ThrowvsThrows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/TryCatch_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/UnCheckedException/ArithmeticException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Unboxing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/What &amp; Why" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/What is an Exception" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Which.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/WideningPrimitiveConversion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/WrapperToPrimitive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Wrapper_Class1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Wrapper_Class2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/WrappingAndUnWrapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/X.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/Z.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/BankAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/C.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Crow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/FourWheeler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Linux.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/MacOS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Main3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/OperatingSystem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Parrot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Sub1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Sub2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Sub3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/TestInheritance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/TwoWheeler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hierarchical/Windows.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/A1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/B1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/C.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/C1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/D.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/D1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Lion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/Pet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Hybrid/WildAnimal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Apple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Base1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Bike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/ChottaLexi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Derived.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Derived1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Fruit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/GFG.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/GFG1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Lab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Lexi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Motorcycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/ObjectCreationOfInheritedClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/ObjectCreationOfInheritedClass1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/ObjectCreationOfInheritedClass2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Pen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/InheriranceAndConstructors/Pug.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MountainBike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Child.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Grandparent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/One.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Parent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Parrot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Puppy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/SingingParrot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/TestInheritance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Three.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/MultiLevel/Two.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/A1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/A2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/A3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/AnimalEat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/AnimalTravel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Bear.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Carnivore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Herbivore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/Multiple/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Engineer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/HadoopTeacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/HeadQuarters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Java.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Main3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Main4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/MainBranch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/One.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Parrot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/ProgrammingLanguages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/SubClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/SuperClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/TestInheritance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/TestPgming.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SingleInheritance/Two.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SubClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/inheritance/SuperClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Bicycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/BicycleDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Box.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Cup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Cycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Engineer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Fruit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Main7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/objectAndClass/StudentNew.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/Wrapper_Classes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/What &amp; Why" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaDaily/out/production/Wrapper_Classes/lib/opentest4j-1.2.0.jar" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn about custom exceptions">
+      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/CheckedException/FileCheck1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/ThrowsDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/UnCheckedException/NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,6 +64,7 @@
     "Application.ExceptionInFinalize.executor": "Debug",
     "Application.ExceptionNotHandled.executor": "Debug",
     "Application.FileCheck.executor": "Debug",
+    "Application.FileCheck1.executor": "Debug",
     "Application.FileNotFoundEx1.executor": "Debug",
     "Application.FileProcessor.executor": "Debug",
     "Application.FinalizationNumber.executor": "Debug",
@@ -356,6 +77,7 @@
     "Application.FinallyExample.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
+    "Application.Main2.executor": "Debug",
     "Application.MainTest.executor": "Debug",
     "Application.Marksheet.executor": "Debug",
     "Application.MultiCatch1.executor": "Debug",
@@ -363,12 +85,16 @@
     "Application.NestedTryCatch.executor": "Debug",
     "Application.NoSuchElementException.executor": "Debug",
     "Application.NullPointerEx1.executor": "Debug",
+    "Application.NullPointerException.executor": "Debug",
     "Application.OutOfMemoryDemo1.executor": "Debug",
     "Application.SleepTest.executor": "Debug",
+    "Application.Student.executor": "Debug",
     "Application.ThrowEx1.executor": "Debug",
     "Application.ThrowEx2.executor": "Debug",
     "Application.ThrowExample.executor": "Debug",
     "Application.ThrowExample1.executor": "Debug",
+    "Application.ThrowsDemo.executor": "Debug",
+    "Application.ThrowsDemo1.executor": "Debug",
     "Application.ThrowsEx1.executor": "Debug",
     "Application.ThrowsEx2.executor": "Debug",
     "Application.ThrowsExample.executor": "Debug",
@@ -379,40 +105,62 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/asus/codecrafters-http-server-java"
+    "last_opened_file_path": "C:/Users/asus/codecrafters-http-server-java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConcurrentModificationException">
-    <configuration name="ConcurrentModificationException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrentModificationException" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectAndClass.Main2" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullPointerException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnCheckedException.NullPointerException" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnCheckedException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectAndClass.Student" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThrowsDemo" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomException1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomException1" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Marksheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Marksheet" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoSuchElementException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NoSuchElementException" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OutOfMemoryDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OutOfMemoryDemo1" />
+    <configuration name="ThrowsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThrowsDemo1" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -420,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrentModificationException" />
-        <item itemvalue="Application.CustomException1" />
-        <item itemvalue="Application.NoSuchElementException" />
-        <item itemvalue="Application.Marksheet" />
-        <item itemvalue="Application.OutOfMemoryDemo1" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.ThrowsDemo1" />
+        <item itemvalue="Application.ThrowsDemo" />
+        <item itemvalue="Application.NullPointerException" />
       </list>
     </recent_temporary>
   </component>
@@ -821,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712772195209</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Learn about custom exceptions">
+      <option name="closed" value="true" />
+      <created>1712978883905</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1712978883905</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -836,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learn how JVM handles an exception using an example" />
     <MESSAGE value="Exception handling with and without using handlerMethod" />
     <MESSAGE value="CheckedVsUnChecked Exceptions" />
     <MESSAGE value="CheckedVsUnChecked Exceptions explained in detail" />
@@ -861,17 +616,8 @@
     <MESSAGE value="Learnt how FileNotFoundException and IOException are related&#10;&#10;-Exception handling in java is based on inheritance hierarchy&#10;-FileNotFoundException occur due to tried to read contents from a file which doesn't exist using FileInputStream class&#10;-So, It's an IOException in general" />
     <MESSAGE value="OutOfMemoryException occurred" />
     <MESSAGE value="Learn about different types of exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn about different types of exceptions" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Learn about custom exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn about custom exceptions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
