@@ -1,0 +1,16 @@
+
+Checked :
+-->Occur at compile-time.
+-->Compiler checks for checked exceptions
+-->If Checked exceptions aren't handled/ignored, we will get a compile-time error.
+-->Sub-class of exception class, doesn't inherit Runtime exception class
+
+Eg: IOException, FileNotFoundException
+
+UnChecked :
+-->Occur at run-time.
+--> Compiler doesn't check for unchecked exception.
+-->If Unchecked exceptions aren't handled/, we will get a run-time error.
+-->Sub-Class of RunTime exception class.
+
+Eg: ArithmeticException, NullPointer Exception, Array/String IndexOutOfBounds Exception.

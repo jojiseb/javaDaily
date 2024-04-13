@@ -1,0 +1,7 @@
+What ??
+  - Error is an unwanted condition, caused due to lack of resources and indicates
+    a serious problem.
+  - Errors are irrecoverable and they can't be handled by programmers.
+    (OutOfMemory Error, StackOverflow Error, JVMException etc.)
+  - It is not warned by compiler during compile time, So, Its a Unchecked Exception
+  - Occur only at Run-time.

@@ -1,0 +1,28 @@
+What ??
+    - Mechanism to handle unwanted interruptions like exceptions &
+      continue with normal flow of program.
+    - JVM by default handle exceptions by stopping the execution of the program
+      and throw the exception.
+
+How are they handled ??
+    - Java uses try-catch blocks, keywords like final, finally, throw & throws
+      to handle exceptions.
+
+Why handle exceptions ??
+    - To make sure program executes properly, without any halt.
+    - It is necessary to handle them whenever they occur, during compile-time
+      and run-time, for smooth execution of program.
+    - Even minor exceptions are left out without handling, can cause the program to terminate abruptly.
+
+
+Case without exception handling :
+
+    Eg: If a program is executing some lines of code, exception occurs mid-way.
+        Program stops execution then and there without executing rest of code.
+
+When exception is handled :
+
+    Exception is explicitly handled and program will be executed until the end of code.
+
+
+

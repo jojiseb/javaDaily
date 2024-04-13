@@ -1,0 +1,69 @@
+What ??
+    - Unwanted conditions that disrupt the flow of the program.
+    - When an exception is raised, it will halt the execution of the program.
+      and throw the occurred  exception.
+    - Can be both compile-time and run-time exceptions as well.
+
+    - Some reasons for exception:
+      --> User entered invalid data.
+      --> File that needs to be opened isn't found.
+      --> Network connection lost in middle of communication, JVM m/y runs out.
+
+Types :
+    1. Checked
+    2. Unchecked
+    3. Errors
+
+
+ Checked Exception:
+    Exceptions that are checked by compiler for smooth execution of program at run-time, whether programmer handled it or not.
+    Checked exceptions should be handled by the programmer. These are kind of a checking for the expected, whether programmer
+    is handling it or not.
+
+    Real-world analogies :
+
+    --> Parents checking for Hall-ticket before leaving for examination.
+    --> Parents checking for having working pens to write exam.
+
+    --> Security people at forest safari alerting to change blazing dress to avoid animals getting triggered and attack
+        you
+
+    Eg: FileNotFoundException, InterruptedException
+
+ UnChecked Exception:
+    Exceptions which are not checked by compiler is called UnChecked Exception.
+
+    Considering exam-hall scenario, Compiler can check about Hall-Ticket, Pens for exam.
+    But, Compiler can't/won't check about Bomb blast during exam (highly unlikely, but rare to occur)
+    So, It is not checked.
+
+    Real-world analogy:
+
+    --> Bomb blast Exception
+
+    Eg: Arithmetic Exception, Null Pointer Exception
+
+
+    ----------------------\\\\\\\\\\\\\\\\\\\\\\\\\-----------------------
+    Errors won't be asked by compiler/checked by compiler whether handled or not.
+    Because, Its out of programmers control. Errors are non-recoverable.
+
+    Eg: OutOfMemory Error, Linkage Error, StackOverflow Error etc..
+
+    OutOfMemory is not programmers responsibility, memory must be increased by
+    system admin/some one else responsible to increase m/y.
+    ----------------------\\\\\\\\\\\\\\\\\\\\\\\----------------------
+
+
+    So, All Errors are unchecked exceptions..
+
+    So, All RunTime Exceptions and Errors belong to unchecked exceptions.
+    i.e., These won't be checked by compiler, whether handled or not
+
+    Rest Other exceptions are called Checked Exceptions
+
+    Eg: Run-time Exception - Null Pointer Exceptions, Arithmetic Exception
+
+        IndexOutOfBounds :
+        --> ArrayIndexOutOfBounds
+        --> StringIndexOutOfBounds
