@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn about custom exceptions">
-      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/CheckedException/FileCheck1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/ThrowsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/ThrowsDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Exception_Handling_In_Java/UnCheckedException/NullPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart1.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Revising some old concepts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +74,7 @@
     "Application.InvalidAgeCustomException.executor": "Debug",
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
     "Application.Main2.executor": "Debug",
+    "Application.MainPart2.executor": "Debug",
     "Application.MainTest.executor": "Debug",
     "Application.Marksheet.executor": "Debug",
     "Application.MultiCatch1.executor": "Debug",
@@ -112,7 +109,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.MainPart2">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objectAndClass.Main2" />
       <module name="javaDaily" />
@@ -126,15 +123,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPointerException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnCheckedException.NullPointerException" />
+    <configuration name="MainPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainPart2" />
       <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnCheckedException.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainPart2" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.ThrowsDemo1" />
         <item itemvalue="Application.ThrowsDemo" />
-        <item itemvalue="Application.NullPointerException" />
       </list>
     </recent_temporary>
   </component>
@@ -184,14 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Different scenarios of how finalize() works">
-      <option name="closed" value="true" />
-      <created>1709317331118</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709317331118</updated>
     </task>
     <task id="LOCAL-00002" summary="finalize() tests">
       <option name="closed" value="true" />
@@ -577,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712978883905</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Revising some old concepts">
+      <option name="closed" value="true" />
+      <created>1713031372264</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1713031372264</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exception handling with and without using handlerMethod" />
     <MESSAGE value="CheckedVsUnChecked Exceptions" />
     <MESSAGE value="CheckedVsUnChecked Exceptions explained in detail" />
     <MESSAGE value="Basics of Throw and Throws keyword" />
@@ -617,7 +607,8 @@
     <MESSAGE value="OutOfMemoryException occurred" />
     <MESSAGE value="Learn about different types of exceptions" />
     <MESSAGE value="Learn about custom exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn about custom exceptions" />
+    <MESSAGE value="Revising some old concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revising some old concepts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
