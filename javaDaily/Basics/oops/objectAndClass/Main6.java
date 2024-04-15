@@ -10,7 +10,7 @@ class Cup {
     //"this" keyword gets replaced by reference variable, where-ever its used
     //Its same as using dot operator to assign value inside object to instance variable
     //What happens inside constructor or a method call where "this" is used
-    //this.propetyName = refVariable.propertyName
+    //this.propertyName = refVariable.propertyName
 
     Cup() {
         this.cupNo = 12;
