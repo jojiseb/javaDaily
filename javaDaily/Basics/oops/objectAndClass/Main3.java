@@ -5,17 +5,26 @@ import java.util.Arrays;
 class Employee { //instance variables - outside methods, inside class
     int eNo; //3 instance variables / states - variables inside object
     String empName; //We access instance varibles using dot oprtr (.);
-    String empDept = "Product"; // objectReference.propertyName
+    String empDept; // objectReference.propertyName
 }
 
 public class Main3 {
     public static void main(String[] args) {
-        //Employee employee; //Since, its local it says a non-initialised,for that below eg..
-        Employee[] employees = new Employee[2]; // Alternative example to show the value of a reference variable
-        System.out.println(Arrays.toString(employees)); // which is not initialising an object -- null is the default value
+        //Employee employee; //Since, its local it says a non-initialised
+
+        //To see what will be default value for a non-initialised reference variable, see below eg:
+
+        Employee[] employees = new Employee[2]; // Alternative example to show the value of a reference variable --> Array shows that it is capable of holding employee objects
+        System.out.println(Arrays.toString(employees)); // Since, An Object isn't yet initialised, null is the default value
+
+        for(Employee employee: employees) {
+            System.out.println(employee);   //null
+            employee = new Employee();  //getting initialised
+            System.out.println(employee);   //Returns String rep. of Object with className and hashCode, denoting that ref.variable is referring to a m/y location
+        }
         Employee employee = new Employee(); // LHS happens @ Compile time -- reference variable created
         //RHS happens @ run-time -- allocates m/y @ rum-time
-        
+
         //You can only access variables via dot operator which are present in class Template, like eNo,empName, empDept
 
         System.out.println("Emp No : "+employee.eNo);    // 0
