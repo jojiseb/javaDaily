@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn what will be value of Object before &amp; after initialisation">
-      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart4.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learning Object allocation in m/y">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/oops/objectAndClass/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/MainPart4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00004" summary="-finalize() examples">
-      <option name="closed" value="true" />
-      <created>1709574420241</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709574420241</updated>
     </task>
     <task id="LOCAL-00005" summary="When to use System.gc()">
       <option name="closed" value="true" />
@@ -573,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713180899207</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Learning Object allocation in m/y">
+      <option name="closed" value="true" />
+      <created>1713205160987</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1713205160987</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Basics of Throw and Throws keyword" />
     <MESSAGE value="Throw and Throws keyword theory" />
     <MESSAGE value="Throw Keyword example" />
     <MESSAGE value="-Create a custom exception class and used that custom exception in my method to throw an exception explicitly&#10;-Add method signature on the method which throw a custom exception" />
@@ -613,7 +610,8 @@
     <MESSAGE value="Revising some old concepts" />
     <MESSAGE value="Object creation, references, equating using equals()" />
     <MESSAGE value="Learn what will be value of Object before &amp; after initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn what will be value of Object before &amp; after initialisation" />
+    <MESSAGE value="Learning Object allocation in m/y" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning Object allocation in m/y" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
