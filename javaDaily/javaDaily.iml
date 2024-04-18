@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Basics/oops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basics/Revision/ClassAndObject" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basics/Exception_Handling_In_Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/StackAndHeapMemory" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

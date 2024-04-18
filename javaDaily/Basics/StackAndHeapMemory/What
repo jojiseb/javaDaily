@@ -1,0 +1,16 @@
+
+Stack And Heap Memory
+
+Stack Memory:
+    --> employs a static memory allocation scheme, storing function calls,
+        method-specific primitive data, and object references (reference variables).
+    --> Access is in LIFO order.
+    --> Stack memory has fixed size, doesn't change during execution.
+    --> allocated to each thread dynamically during run-time.
+    --> Allocation happens during thread creation, following LIFO
+    --> Lifespan depends on duration of function, it ceases to exist when function concludes.
+
+Heap Memory:
+    --> facilitates dynamic memory allocation for Java Objects and JRE classes during
+        program execution.
+    --> Objects in heap have global access, available from any part of application.
