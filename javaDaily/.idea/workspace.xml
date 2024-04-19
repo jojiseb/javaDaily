@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Stack And Heap Memory examples">
-      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/HeapMemoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/MemoryAllocationEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/OutOfMemoryException.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError">
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/WrapperClass_Exs/WrapperClasses/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StackAndHeapMemory/StackOverflowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/StackOverflowExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StackAndHeapMemory/What" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/What" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +77,13 @@
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
     "Application.Main2.executor": "Debug",
     "Application.Main3.executor": "Debug",
+    "Application.MainOne.executor": "Debug",
     "Application.MainPart2.executor": "Debug",
     "Application.MainPart3.executor": "Debug",
     "Application.MainPart4.executor": "Debug",
     "Application.MainTest.executor": "Debug",
     "Application.Marksheet.executor": "Debug",
+    "Application.MemoryAllocationEx.executor": "Debug",
     "Application.MultiCatch1.executor": "Debug",
     "Application.MultiCatch2.executor": "Debug",
     "Application.NestedTryCatch.executor": "Debug",
@@ -120,7 +119,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MemoryAllocationEx">
+  <component name="RunManager" selected="Application.MainOne">
     <configuration name="HeapMemoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeapMemoryExample" />
       <module name="javaDaily" />
@@ -128,15 +127,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryAllocationEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MemoryAllocationEx" />
+    <configuration name="MainOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainOne" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutOfMemoryEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OutOfMemoryEx" />
+    <configuration name="MemoryAllocationEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemoryAllocationEx" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainOne" />
         <item itemvalue="Application.MemoryAllocationEx" />
-        <item itemvalue="Application.OutOfMemoryException" />
         <item itemvalue="Application.HeapMemoryExample" />
         <item itemvalue="Application.StackOverflowExample" />
         <item itemvalue="Application.StackMemoryExample" />
@@ -174,14 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Example to check finalize() of which class gets executed">
-      <option name="closed" value="true" />
-      <created>1709748921848</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709748921848</updated>
     </task>
     <task id="LOCAL-00008" summary="Learnt difference btw explicit and implicit call to finalize()&#10;- Explicit call, invokes finalize() as a normal method&#10;- Implicit call, invoked by System.gc() performs clean up">
       <option name="closed" value="true" />
@@ -567,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713463089967</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError">
+      <option name="closed" value="true" />
+      <created>1713509707495</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1713509707495</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -582,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-Create a custom exception class and used that custom exception in my method to throw an exception explicitly&#10;-Add method signature on the method which throw a custom exception" />
     <MESSAGE value="Custom exception example using throw and throws keyword" />
     <MESSAGE value="Add CustomTestException for learning" />
     <MESSAGE value="Throws test" />
@@ -607,7 +605,8 @@
     <MESSAGE value="Learning Object allocation in m/y" />
     <MESSAGE value="Learn impact of using this keyword in toString() &#10;&#10;- Whenever an object is concatenated with a String, toString() is called&#10;- Causes StackOverflow error here, due to recursive calls to toString() implementation&#10;- toString() implementation here can be called here by : printing Object, using callCheck() which performs a concatenation&#10;- Avoid using this keyword in toString() implementation" />
     <MESSAGE value="Stack And Heap Memory examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack And Heap Memory examples" />
+    <MESSAGE value="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
