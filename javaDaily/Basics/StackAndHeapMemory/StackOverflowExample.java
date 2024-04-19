@@ -1,16 +1,15 @@
 public class StackOverflowExample {
     public static void main(String[] args) {
         try {
-            recursiveCode(1);
+            recursiveCounter(1);
         }
-        catch (Exception e) {
-            System.out.println("Stack overflow error caught: "+e.getMessage());
-        }
+        catch (StackOverflowError e) {  //It's not an Exception, but an Error, So, StackOverFlowError
+            System.out.println("Stack overflow error caught: "+e.getMessage()); //Error raised since no space to create new Objects
+        }   //Stack Memory is dependent o
+    }
+    public static void recursiveCounter(int number) {
+        System.out.println("number : "+number);
+        recursiveCounter(number + 1); //recursive method causing Stack Overflow error
     }
 
-    public static void recursiveCode(int counter) {
-        System.out.println("Counter : "+counter);
-
-        recursiveCode(1);
-    }
 }

@@ -6,11 +6,20 @@ Stack Memory:
         method-specific primitive data, and object references (reference variables).
     --> Access is in LIFO order.
     --> Stack memory has fixed size, doesn't change during execution.
-    --> allocated to each thread dynamically during run-time.
-    --> Allocation happens during thread creation, following LIFO
+    --> Allocated to each thread dynamically during run-time.
+    --> Allocation happens during thread creation, following LIFO.
     --> Lifespan depends on duration of function, it ceases to exist when function concludes.
 
 Heap Memory:
-    --> facilitates dynamic memory allocation for Java Objects and JRE classes during
+    --> Facilitates dynamic memory allocation for Java Objects and JRE classes during
         program execution.
     --> Objects in heap have global access, available from any part of application.
+    --> Heap Memory is established during JVM initiation and remains in use throughout application
+        run time.
+
+    --> When Objects are created, They claim space in heap memory, with their reference variables stored in the stack.
+    --> Heap M/y operates dynamically, handling memory blocks without adhering to a specific order.
+    --> M/y management is automated with garbage collector, which de-allocates objects which are no longer in use.
+
+    --> Heap M/y persists until program terminates or a memory freeing event occurs.
+    --> Elements in heap are globally accessible throughout app and shared among all threads.

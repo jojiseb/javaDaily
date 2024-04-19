@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn impact of using this keyword in toString() &#10;&#10;- Whenever an object is concatenated with a String, toString() is called&#10;- Causes StackOverflow error here, due to recursive calls to toString() implementation&#10;- toString() implementation here can be called here by : printing Object, using callCheck() which performs a concatenation&#10;- Avoid using this keyword in toString() implementation">
-      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/StackMemoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/StackOverflowExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/What" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Stack And Heap Memory examples">
+      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/HeapMemoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/MemoryAllocationEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/OutOfMemoryException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StackAndHeapMemory/StackOverflowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/StackOverflowExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StackAndHeapMemory/What" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StackAndHeapMemory/What" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
     "Application.FinalizeTest.executor": "Debug",
     "Application.Finally2.executor": "Debug",
     "Application.FinallyExample.executor": "Debug",
+    "Application.HeapMemoryExample.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
     "Application.Main2.executor": "Debug",
@@ -90,8 +92,10 @@
     "Application.NullPointerEx1.executor": "Debug",
     "Application.NullPointerException.executor": "Debug",
     "Application.OutOfMemoryDemo1.executor": "Debug",
+    "Application.OutOfMemoryException.executor": "Debug",
     "Application.SleepTest.executor": "Debug",
     "Application.StackMemoryExample.executor": "Debug",
+    "Application.StackOverflowExample.executor": "Debug",
     "Application.Student.executor": "Debug",
     "Application.ThrowEx1.executor": "Debug",
     "Application.ThrowEx2.executor": "Debug",
@@ -116,29 +120,23 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StackOverflowExample">
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClass.Main3" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="objectAndClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPart3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainPart3" />
+  <component name="RunManager" selected="Application.MemoryAllocationEx">
+    <configuration name="HeapMemoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapMemoryExample" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainPart4" />
+    <configuration name="MemoryAllocationEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemoryAllocationEx" />
+      <module name="javaDaily" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutOfMemoryEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OutOfMemoryEx" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemoryAllocationEx" />
+        <item itemvalue="Application.OutOfMemoryException" />
+        <item itemvalue="Application.HeapMemoryExample" />
         <item itemvalue="Application.StackOverflowExample" />
         <item itemvalue="Application.StackMemoryExample" />
-        <item itemvalue="Application.MainPart4" />
-        <item itemvalue="Application.MainPart3" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Explicitly calling finalize()">
-      <option name="closed" value="true" />
-      <created>1709662328153</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709662328153</updated>
     </task>
     <task id="LOCAL-00007" summary="Example to check finalize() of which class gets executed">
       <option name="closed" value="true" />
@@ -569,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713238109880</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Stack And Heap Memory examples">
+      <option name="closed" value="true" />
+      <created>1713463089966</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1713463089967</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Throw Keyword example" />
     <MESSAGE value="-Create a custom exception class and used that custom exception in my method to throw an exception explicitly&#10;-Add method signature on the method which throw a custom exception" />
     <MESSAGE value="Custom exception example using throw and throws keyword" />
     <MESSAGE value="Add CustomTestException for learning" />
@@ -609,7 +606,8 @@
     <MESSAGE value="Learn what will be value of Object before &amp; after initialisation" />
     <MESSAGE value="Learning Object allocation in m/y" />
     <MESSAGE value="Learn impact of using this keyword in toString() &#10;&#10;- Whenever an object is concatenated with a String, toString() is called&#10;- Causes StackOverflow error here, due to recursive calls to toString() implementation&#10;- toString() implementation here can be called here by : printing Object, using callCheck() which performs a concatenation&#10;- Avoid using this keyword in toString() implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn impact of using this keyword in toString() &#10;&#10;- Whenever an object is concatenated with a String, toString() is called&#10;- Causes StackOverflow error here, due to recursive calls to toString() implementation&#10;- toString() implementation here can be called here by : printing Object, using callCheck() which performs a concatenation&#10;- Avoid using this keyword in toString() implementation" />
+    <MESSAGE value="Stack And Heap Memory examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack And Heap Memory examples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
