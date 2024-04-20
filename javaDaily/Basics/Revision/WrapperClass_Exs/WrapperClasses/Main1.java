@@ -23,12 +23,15 @@ public class Main1 {
 
         System.out.println("Before swapping : a : "+a+", b : "+b);
 
-        swapFunction(a, b);
-     }
+        swapFunction(a, b); //In Java, Primitive types are pass-by-value. So, Here its passing a copy of original value
 
-     public static void swapFunction(int a, int b) {
-        int temp = a;
-        int p = b;
-        int q = temp;
+        System.out.println("After Swapping : a : "+a+", b : "+b);
+     }
+     public static void swapFunction(int a, int b) {    //swapping is performed on the copied value, not on original value
+        System.out.println("Inside swapFunc, Before : a : "+a+", b : "+b);   //in memory ...So, it is not reflected
+        int temp = a;                           //outside this function
+        a = b;
+        b = temp;
+        System.out.println("Inside swapFunc, After : a : "+a+", b : "+b);
      }
 }

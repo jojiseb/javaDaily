@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError">
-      <change afterPath="$PROJECT_DIR$/Basics/Revision/WrapperClass_Exs/WrapperClasses/Main1.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Start learn about Wrapper classes">
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/WrapperClass_Exs/WrapperClasses/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/WrapperClass_Exs/WrapperClasses/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Revision/WrapperClass_Exs/WrapperClasses/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Revision/WrapperClass_Exs/WrapperClasses/Main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
     "Application.HeapMemoryExample.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
+    "Application.Main1.executor": "Debug",
     "Application.Main2.executor": "Debug",
     "Application.Main3.executor": "Debug",
     "Application.MainOne.executor": "Debug",
@@ -119,10 +121,42 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainOne">
-    <configuration name="HeapMemoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapMemoryExample" />
+  <component name="RunManager" selected="Application.Main3">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WrapperClasses.Main1" />
       <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WrapperClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WrapperClasses.Main2" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WrapperClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WrapperClasses.Main3" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WrapperClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,27 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackMemoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackMemoryExample" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackOverflowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackOverflowExample" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.MainOne" />
         <item itemvalue="Application.MemoryAllocationEx" />
-        <item itemvalue="Application.HeapMemoryExample" />
-        <item itemvalue="Application.StackOverflowExample" />
-        <item itemvalue="Application.StackMemoryExample" />
       </list>
     </recent_temporary>
   </component>
@@ -173,14 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Learnt difference btw explicit and implicit call to finalize()&#10;- Explicit call, invokes finalize() as a normal method&#10;- Implicit call, invoked by System.gc() performs clean up">
-      <option name="closed" value="true" />
-      <created>1709836203443</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1709836203443</updated>
     </task>
     <task id="LOCAL-00009" summary="Another example for explicit call to finalize() , to differentiate btw implicit call using System.gc() and explicit call like function invocation using Objects">
       <option name="closed" value="true" />
@@ -566,7 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713509707495</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Start learn about Wrapper classes">
+      <option name="closed" value="true" />
+      <created>1713545491128</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1713545491129</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -581,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Custom exception example using throw and throws keyword" />
     <MESSAGE value="Add CustomTestException for learning" />
     <MESSAGE value="Throws test" />
     <MESSAGE value="ArrayIndexOutOfBounds example" />
@@ -606,7 +625,8 @@
     <MESSAGE value="Learn impact of using this keyword in toString() &#10;&#10;- Whenever an object is concatenated with a String, toString() is called&#10;- Causes StackOverflow error here, due to recursive calls to toString() implementation&#10;- toString() implementation here can be called here by : printing Object, using callCheck() which performs a concatenation&#10;- Avoid using this keyword in toString() implementation" />
     <MESSAGE value="Stack And Heap Memory examples" />
     <MESSAGE value="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError" />
+    <MESSAGE value="Start learn about Wrapper classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start learn about Wrapper classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
