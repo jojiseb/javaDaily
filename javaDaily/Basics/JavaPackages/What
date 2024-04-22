@@ -1,0 +1,30 @@
+  >  Package in java is a mechanism to encapsulate:
+        --> a group of classes
+        --> sub packages
+        --> Interfaces
+
+   > Used to avoid naming conflicts
+            There can be 2 classes with  Employee in two packages, college.staff.cse.Employee and
+            college.staff.ee.Employee
+   > Makes searching/locating and usage of classes, interfaces, enumerations and annotations easier
+   > To Provide controlled access
+            Protected & Default have package level access control
+            Protected member is accessible by classes in same package and its sub-classes
+            Default member(one without any access specifier) is accessible by classes in same package
+   > Package can be considered as Data Encapsulation
+
+
+
+   We basically put related classes into packages. After that, We simply write an import class from existing packages,
+   to use in our program
+
+   Package is a container of related classes where some of classes are accessible are exposed
+   and others are kept for internal purpose.
+
+   Package names and directory structures are closely related.
+   Eg : Package name - college.staff.cse , Then cse is present in staff and staff is inside college directory.
+        Also directory college is accessible through classPath variable. Idea is to make sure that classes are easy to locate.
+
+   Packages are named in reverse order of domain names : org.geeksforgeeks.practice
+   Eg: college.tech.cse, college.tech.ee, college.art.history etc.
+
