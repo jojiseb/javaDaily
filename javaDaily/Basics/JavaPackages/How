@@ -1,0 +1,16 @@
+//All classes and interfaces of this package will be accessible
+//but not from sub-packages.
+import package.*;
+
+//Only the mentioned class of this package will be accessible.
+import package.className;
+
+//A Fully Qualified Class name is generally used when you need to use any class in your
+//java code, regardless whether there is a naming conflict with other packages
+//import statement is always package.className format.
+import java.util.Date;
+import my.package.Date;
+
+//This is required even if there is no naming Conflict.
+
+//import statements doesn't need className by itself.

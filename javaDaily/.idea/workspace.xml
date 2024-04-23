@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Wrapper ex. revising Swapping values">
-      <change afterPath="$PROJECT_DIR$/Basics/JavaPackages/PackageExamples/VectorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/JavaPackages/What" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn about java packages, how they are related to directories">
+      <change afterPath="$PROJECT_DIR$/Basics/JavaPackages/How" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +107,7 @@
     &quot;Application.ThrowsExample.executor&quot;: &quot;Debug&quot;,
     &quot;Application.ThrowsExample2.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TryCatch_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VectorEx.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Which.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -193,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Learnt how finalize() reacts to exception: &#10;- Normally ignores if error occurred, Clean up process inside finalize() is n't completed&#10;- Handled with try-catch so that error isn't ignored">
-      <option name="closed" value="true" />
-      <created>1709952316364</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709952316364</updated>
     </task>
     <task id="LOCAL-00011" summary="Learnt about lifetime of finalized object:&#10;&#10;- Object is created.&#10;- Object is un-referenced/un-reachable. Now, object is of no use &amp; occupies un-necessary m/y space.&#10;- Object is added to finalization queue of GC, which is invoked by JVM.&#10;- Clean-Up activities are performed &amp; Object is finalized.&#10;- GC destroys object completely and re-claims the space occupied by un-used object">
       <option name="closed" value="true" />
@@ -586,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713581917087</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Learn about java packages, how they are related to directories">
+      <option name="closed" value="true" />
+      <created>1713754302223</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1713754302224</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Throws test" />
     <MESSAGE value="ArrayIndexOutOfBounds example" />
     <MESSAGE value="ArrayIndexOutOfBounds explained" />
     <MESSAGE value="Detail of how e.getMessage() got it value from &#10;- Cleared misunderstanding that what simply thrown is executed, but catch is performed , with clear message" />
@@ -626,7 +624,8 @@
     <MESSAGE value="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError" />
     <MESSAGE value="Start learn about Wrapper classes" />
     <MESSAGE value="Wrapper ex. revising Swapping values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrapper ex. revising Swapping values" />
+    <MESSAGE value="Learn about java packages, how they are related to directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn about java packages, how they are related to directories" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
