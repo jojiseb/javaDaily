@@ -1,4 +1,3 @@
-
 import java.util.Vector;
 public class VectorEx {
     public VectorEx() { //java.util.vector is imported, since able
