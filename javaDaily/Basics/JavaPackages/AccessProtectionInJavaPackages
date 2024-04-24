@@ -1,0 +1,15 @@
+
+--> Packages in java adds another dimension to access-control.
+
+--> Both classes and packages are a means of data encapsulation.
+
+--> Packages acts as containers for Classes, Classes act as containers for data and code.
+
+Types of accessibility possible when using packages:
+
+-Anything declared public can be accessed from anywhere.
+-Anything declared private can be seen only within that class.
+-If access specifier is not specified, an element is visible to subclasses, as well as other classes in same package.
+-Anything declared protected, can be seen outside current package, only to classes that sub-class your class directly.
+
+This way, Access-Control is provided to classes.

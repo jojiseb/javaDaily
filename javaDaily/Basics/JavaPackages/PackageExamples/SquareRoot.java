@@ -15,7 +15,7 @@ public class SquareRoot { //static import always works for methods or fields dec
         int num = obj.nextInt();
 
         out.println("Square root is : ");
-        out.println(sqrt(num)); //Uses static import , else needed
+        out.println(sqrt(num)); //Uses static import
 
 //        Math.sqrt(num); Also works since sqrt method is static , so can be accessed directly using ClassName instead of using object
     }
