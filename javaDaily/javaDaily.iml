@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Basics/Revision/WrapperClass_Exs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basics/JavaPackages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basics/JavaPackages/PackageExamples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/StaticKeyword" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
