@@ -13,8 +13,11 @@ public class Main {
         //After all each human added is increase in population. But here, its acting dependent to each object.
 
         MainHuman mainHuman = new MainHuman(11, "Jota", 7000000, true);
+        System.out.println(MainHuman.population);
         MainHuman notSoMain = new MainHuman(34, "Arsh", 4000000, false);
+        System.out.println(MainHuman.population);
         MainHuman third = new MainHuman(33, "Theo", 600000, false);
+        System.out.println(MainHuman.population);
 
         mainHuman.humanDetails();
         notSoMain.humanDetails();
