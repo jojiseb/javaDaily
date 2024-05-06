@@ -1,0 +1,13 @@
+
+Whenever a variable is declared static, this means there is only one copy of it for the entire class,
+rather than each of instance having its own copy.
+
+A static method means it can be called without creating an instance/object of the class.
+
+Advantages of Static Variables and Methods:
+
+--> Memory Efficiency
+--> Global Access
+--> Object Independence
+--> Performance
+--> Code Organization

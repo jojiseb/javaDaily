@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Static variables basic examples, variable access conventions using static">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Car.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Static variable Car example">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/MainStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticKeywordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/What and Why" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/What and Why" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,94 +45,111 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArithmeticException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ArrayIndex.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BestPractice.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Car.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CatchException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CheckedException.FileProcessor.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ConcurrentModificationException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CustomException1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CustomTestException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Data.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DemoCheck.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EmployeeFinalize.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionCallStackExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionCallStackExample1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionHandling.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionInFinalize.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionNotHandled.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FileCheck.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FileCheck1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FileNotFoundEx1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FileProcessor.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinalizationNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinalizeAsNormal.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinalizeDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinalizeEx1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinalizeExplicit.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinalizeTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Finally2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FinallyExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HeapMemoryExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ImportTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ImportUserDefinedEx.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.InvalidAgeCustomException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LifeTimeOfFinalizedObject.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main3.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainOne.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainPart2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainPart3.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainPart4.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Marksheet.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MemoryAllocationEx.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MultiCatch1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MultiCatch2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NestedTryCatch.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NoSuchElementException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NullPointerEx1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NullPointerException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumberComparison.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumberComparison1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.OutOfMemoryDemo1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.OutOfMemoryException.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SleepTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SquareRoot.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StackMemoryExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StackOverflowExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowEx1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowEx2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowExample1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowsDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowsDemo1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowsEx1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowsEx2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowsExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThrowsExample2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TryCatch_1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.VectorEx.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Which.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/codecrafters-http-server-java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArithmeticException.executor": "Debug",
+    "Application.ArrayIndex.executor": "Debug",
+    "Application.BestPractice.executor": "Debug",
+    "Application.Calculator.executor": "Debug",
+    "Application.Car.executor": "Debug",
+    "Application.CatchException.executor": "Debug",
+    "Application.CheckedException.FileProcessor.executor": "Debug",
+    "Application.ConcurrentModificationException.executor": "Debug",
+    "Application.CustomException1.executor": "Debug",
+    "Application.CustomTestException.executor": "Debug",
+    "Application.Data.executor": "Debug",
+    "Application.Demo.executor": "Debug",
+    "Application.DemoCheck.executor": "Debug",
+    "Application.Department.executor": "Debug",
+    "Application.EmployeeFinalize.executor": "Debug",
+    "Application.ExceptionCallStackExample.executor": "Debug",
+    "Application.ExceptionCallStackExample1.executor": "Debug",
+    "Application.ExceptionHandling.executor": "Debug",
+    "Application.ExceptionInFinalize.executor": "Debug",
+    "Application.ExceptionNotHandled.executor": "Debug",
+    "Application.FileCheck.executor": "Debug",
+    "Application.FileCheck1.executor": "Debug",
+    "Application.FileNotFoundEx1.executor": "Debug",
+    "Application.FileProcessor.executor": "Debug",
+    "Application.FinalizationNumber.executor": "Debug",
+    "Application.FinalizeAsNormal.executor": "Debug",
+    "Application.FinalizeDemo.executor": "Debug",
+    "Application.FinalizeEx1.executor": "Debug",
+    "Application.FinalizeExplicit.executor": "Debug",
+    "Application.FinalizeTest.executor": "Debug",
+    "Application.Finally2.executor": "Debug",
+    "Application.FinallyExample.executor": "Debug",
+    "Application.HeapMemoryExample.executor": "Debug",
+    "Application.ImportTest.executor": "Debug",
+    "Application.ImportUserDefinedEx.executor": "Debug",
+    "Application.InvalidAgeCustomException.executor": "Debug",
+    "Application.LifeTimeOfFinalizedObject.executor": "Debug",
+    "Application.Main.executor": "Debug",
+    "Application.Main1.executor": "Debug",
+    "Application.Main2.executor": "Debug",
+    "Application.Main3.executor": "Debug",
+    "Application.MainOne.executor": "Debug",
+    "Application.MainPart2.executor": "Debug",
+    "Application.MainPart3.executor": "Debug",
+    "Application.MainPart4.executor": "Debug",
+    "Application.MainStudent.executor": "Debug",
+    "Application.MainTest.executor": "Debug",
+    "Application.Marksheet.executor": "Debug",
+    "Application.MemoryAllocationEx.executor": "Debug",
+    "Application.MultiCatch1.executor": "Debug",
+    "Application.MultiCatch2.executor": "Debug",
+    "Application.NestedTryCatch.executor": "Debug",
+    "Application.NoSuchElementException.executor": "Debug",
+    "Application.NullPointerEx1.executor": "Debug",
+    "Application.NullPointerException.executor": "Debug",
+    "Application.NumberComparison.executor": "Debug",
+    "Application.NumberComparison1.executor": "Debug",
+    "Application.OutOfMemoryDemo1.executor": "Debug",
+    "Application.OutOfMemoryException.executor": "Debug",
+    "Application.SleepTest.executor": "Debug",
+    "Application.SquareRoot.executor": "Debug",
+    "Application.StackMemoryExample.executor": "Debug",
+    "Application.StackOverflowExample.executor": "Debug",
+    "Application.StaticKeywordExample.executor": "Debug",
+    "Application.Student.executor": "Debug",
+    "Application.ThrowEx1.executor": "Debug",
+    "Application.ThrowEx2.executor": "Debug",
+    "Application.ThrowExample.executor": "Debug",
+    "Application.ThrowExample1.executor": "Debug",
+    "Application.ThrowsDemo.executor": "Debug",
+    "Application.ThrowsDemo1.executor": "Debug",
+    "Application.ThrowsEx1.executor": "Debug",
+    "Application.ThrowsEx2.executor": "Debug",
+    "Application.ThrowsExample.executor": "Debug",
+    "Application.ThrowsExample2.executor": "Debug",
+    "Application.TryCatch_1.executor": "Debug",
+    "Application.VectorEx.executor": "Debug",
+    "Application.Which.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/asus/codecrafters-http-server-java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.Car">
+}]]></component>
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.Calculator" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StaticEx.Car" />
       <module name="javaDaily" />
@@ -142,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.Main" />
+    <configuration name="Department" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.Department" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -155,34 +176,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberComparison" />
+    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.MainStudent" />
       <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberComparison1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberComparison1" />
+    <configuration name="StaticKeywordExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticKeywordExample" />
       <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SquareRoot" />
-      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Department" />
+        <item itemvalue="Application.StaticKeywordExample" />
+        <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.Car" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.NumberComparison1" />
-        <item itemvalue="Application.NumberComparison" />
       </list>
     </recent_temporary>
   </component>
@@ -194,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00016" summary="UnChecked Exception &amp; it's examples">
-      <option name="closed" value="true" />
-      <created>1710353990503</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1710353990503</updated>
     </task>
     <task id="LOCAL-00017" summary="Why errors are unchecked exceptions">
       <option name="closed" value="true" />
@@ -587,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714154644981</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Static variable Car example">
+      <option name="closed" value="true" />
+      <created>1714214438086</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1714214438088</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="try block with multiple catch blocks&#10;&#10;-Catch blocks should be specified such that Main Exception class must always be in the lower catch block&#10;-Others will be the possible exception classes in top catch blocks" />
     <MESSAGE value="Nested Try Catch Blocks&#10;&#10;-Exception causing code is in deep level of try block&#10;-It can be caught in deep level itself, else it will propagate outside to see where exactly it is properly caught&#10;-Here, It propagates until Main try-catch , where it is handled" />
     <MESSAGE value="Finally block&#10;&#10;-To execute code which needs to be run no matter what happens, basically runs everytime , during error and no error&#10;-To close resources used, like db connections, file operations etc." />
     <MESSAGE value="Throw and Throws exmaple" />
@@ -627,7 +652,8 @@
     <MESSAGE value="Package level access-control" />
     <MESSAGE value="Started static keyword case" />
     <MESSAGE value="Static variables basic examples, variable access conventions using static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static variables basic examples, variable access conventions using static" />
+    <MESSAGE value="Static variable Car example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static variable Car example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
