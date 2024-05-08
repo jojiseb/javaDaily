@@ -4,6 +4,8 @@ rather than each of instance having its own copy.
 
 A static method means it can be called without creating an instance/object of the class.
 
+A Static method can only access a static data like static variables, static methods.
+
 Advantages of Static Variables and Methods:
 
 --> Memory Efficiency
