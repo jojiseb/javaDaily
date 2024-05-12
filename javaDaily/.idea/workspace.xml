@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Static variables and cars example">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticMethod1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/UtilityClassEx.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Static Method beginning examples">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticDefault1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticExecutionOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticVariable1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/What and Why" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/What and Why" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticMethod1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticMethod1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +108,11 @@
     "Application.SquareRoot.executor": "Debug",
     "Application.StackMemoryExample.executor": "Debug",
     "Application.StackOverflowExample.executor": "Debug",
+    "Application.StaticDefault1.executor": "Debug",
+    "Application.StaticExecutionOrder.executor": "Debug",
     "Application.StaticKeywordExample.executor": "Debug",
     "Application.StaticMethod1.executor": "Debug",
+    "Application.StaticVariable1.executor": "Debug",
     "Application.Student.executor": "Debug",
     "Application.ThrowEx1.executor": "Debug",
     "Application.ThrowEx2.executor": "Debug",
@@ -137,9 +139,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StaticMethod1">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.Calculator" />
+  <component name="RunManager" selected="Application.StaticExecutionOrder">
+    <configuration name="StaticDefault1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticDefault1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -151,21 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Department" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.Department" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticKeywordExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticKeywordExample" />
+    <configuration name="StaticExecutionOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticExecutionOrder" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -179,6 +168,19 @@
     </configuration>
     <configuration name="StaticMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StaticEx.StaticMethod1" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticVariable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticVariable1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -205,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticExecutionOrder" />
+        <item itemvalue="Application.StaticVariable1" />
+        <item itemvalue="Application.StaticDefault1" />
         <item itemvalue="Application.StaticMethod1" />
         <item itemvalue="Application.UtilityClassEx" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Department" />
-        <item itemvalue="Application.StaticKeywordExample" />
       </list>
     </recent_temporary>
   </component>
@@ -221,14 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Deciding which are Checked &amp; UnChecked Exception">
-      <option name="closed" value="true" />
-      <created>1710441337301</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1710441337301</updated>
     </task>
     <task id="LOCAL-00019" summary="Exception Handling">
       <option name="closed" value="true" />
@@ -614,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715018506310</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Static Method beginning examples">
+      <option name="closed" value="true" />
+      <created>1715192425071</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1715192425071</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finally block&#10;&#10;-To execute code which needs to be run no matter what happens, basically runs everytime , during error and no error&#10;-To close resources used, like db connections, file operations etc." />
     <MESSAGE value="Throw and Throws exmaple" />
     <MESSAGE value="Throw and Throws better example" />
     <MESSAGE value="Throw and Throws in detail&#10;&#10;- Why and When do we use each" />
@@ -654,7 +655,8 @@
     <MESSAGE value="Static variables basic examples, variable access conventions using static" />
     <MESSAGE value="Static variable Car example" />
     <MESSAGE value="Static variables and cars example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static variables and cars example" />
+    <MESSAGE value="Static Method beginning examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static Method beginning examples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
