@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="System.out.println() internal , toString() basics etc">
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/SingletonObj.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Singleton Class basics">
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/SecondSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/What" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,20 +146,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingletonTest.Main">
-    <configuration name="InnerClasses1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.InnerClasses1" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="InnerClasses2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StaticEx.InnerClasses2" />
       <module name="javaDaily" />
@@ -196,6 +186,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Main1" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonTest.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SingletonTest.Main" />
       <module name="javaDaily" />
@@ -211,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.SingletonTest.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InnerClasses3" />
         <item itemvalue="Application.InnerClasses2" />
-        <item itemvalue="Application.InnerClasses1" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Exception handling with and without using handlerMethod">
-      <option name="closed" value="true" />
-      <created>1710783879107</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1710783879107</updated>
     </task>
     <task id="LOCAL-00024" summary="CheckedVsUnChecked Exceptions">
       <option name="closed" value="true" />
@@ -620,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716001218196</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Singleton Class basics">
+      <option name="closed" value="true" />
+      <created>1716126449702</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1716126449703</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -635,7 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OutOfMemoryException occurred" />
     <MESSAGE value="Learn about different types of exceptions" />
     <MESSAGE value="Learn about custom exceptions" />
     <MESSAGE value="Revising some old concepts" />
@@ -660,7 +662,29 @@
     <MESSAGE value="- Static Inner Classes" />
     <MESSAGE value="- Example of Static inner class" />
     <MESSAGE value="System.out.println() internal , toString() basics etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="System.out.println() internal , toString() basics etc" />
+    <MESSAGE value="Singleton Class basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton Class basics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basics/Singleton/SingletonTest/SecondSingleton.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basics/Singleton/SingletonTest/SecondSingleton.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basics/Singleton/SingletonTest/SecondSingleton.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

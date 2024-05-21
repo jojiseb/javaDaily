@@ -8,6 +8,7 @@ public class Main {
 
         SingletonObj singletonObj1 = SingletonObj.getSingletonInstance();
 
-        SingletonObj singletonObj2 = SingletonObj.getSingletonInstance();
-    }
+        SingletonObj singletonObj2 = SingletonObj.getSingletonInstance();   //All 3 references here point to same instance created once
+    }     //Since, You can call the constructor, no new objects will be created.
+         //Only 1 object created is by using static method, which is a controlled setup, creates it once and reference variables point to an object created once.
 }

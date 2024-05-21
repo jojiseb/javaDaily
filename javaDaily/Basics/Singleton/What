@@ -1,0 +1,9 @@
+Singleton Class
+    A blueprint which ensures only one instance of a class throughout lifetime of an application.
+    No matter how many times, you try to create a new object from a singleton class, you'll always
+    get the same instance that was created initially.
+
+    So, Singleton ensures that only a single object for a class throughout the program.
+
+    Singletons help control access to shared resources and maintain consistency across the program.
+
