@@ -6,6 +6,7 @@ public class Singleton1 {
     public String s;
     private Singleton1() {
         s = "I am part of singleton class";
+        System.out.println(s);
     }
 
     public static synchronized Singleton1 getInstance() {

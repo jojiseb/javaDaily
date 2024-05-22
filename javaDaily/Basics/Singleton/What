@@ -1,5 +1,5 @@
 Singleton Class
-    A blueprint which ensures only one instance of a class throughout lifetime of an application.
+    A blueprint which ensures only one instance of a class created throughout lifetime of an application.
     No matter how many times, you try to create a new object from a singleton class, you'll always
     get the same instance that was created initially.
 
@@ -7,3 +7,13 @@ Singleton Class
 
     Singletons help control access to shared resources and maintain consistency across the program.
 
+    Eg: DB Connection
+
+    You only want a single connection to be made to DB. So, Only a single object creation
+    In this case, you create a singleton class. In case of this, no matter from where it is called,
+    or, how many times it is called, 1 and only 1 object is created and returned when in need.
+
+    Ways to create Singleton Class:
+
+    --> Eager Initialization
+    --> Lazy Initialization
