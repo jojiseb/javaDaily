@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Singleton Class more examples">
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/DBConnection.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Eager vs Lazy initialization">
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/SecondDBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/GFG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Singleton1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/Singleton/What" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/What" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/DBConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +86,8 @@
     "Application.InnerClasses2.executor": "Debug",
     "Application.InnerClasses3.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
+    "Application.LazyInitializationSecond.executor": "Debug",
+    "Application.LazyInitializationUsingThread.executor": "Debug",
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.Main1.executor": "Debug",
@@ -112,6 +112,7 @@
     "Application.OutOfMemoryDemo1.executor": "Debug",
     "Application.OutOfMemoryException.executor": "Debug",
     "Application.SingletonTest.Eager.Main.executor": "Debug",
+    "Application.SingletonTest.Lazy.Main.executor": "Debug",
     "Application.SingletonTest.Main.executor": "Debug",
     "Application.SleepTest.executor": "Debug",
     "Application.SquareRoot.executor": "Debug",
@@ -148,7 +149,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SingletonTest.Lazy.Main">
+  <component name="RunManager" selected="Application.LazyInitializationSecond">
     <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SingletonTest.GFG" />
       <module name="javaDaily" />
@@ -162,12 +163,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Main1" />
+    <configuration name="LazyInitializationSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.LazyInitializationSecond" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.*" />
+          <option name="PATTERN" value="SingletonTest.Lazy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazyInitializationUsingThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.LazyInitializationUsingThread" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTest.Lazy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,26 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Main" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingletonTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyInitializationSecond" />
+        <item itemvalue="Application.LazyInitializationUsingThread" />
         <item itemvalue="Application.SingletonTest.Lazy.Main" />
         <item itemvalue="Application.SingletonTest.Eager.Main" />
         <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.SingletonTest.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -232,14 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00025" summary="CheckedVsUnChecked Exceptions explained in detail">
-      <option name="closed" value="true" />
-      <created>1710959206885</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1710959206885</updated>
     </task>
     <task id="LOCAL-00026" summary="Basics of Throw and Throws keyword">
       <option name="closed" value="true" />
@@ -625,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716315177332</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Eager vs Lazy initialization">
+      <option name="closed" value="true" />
+      <created>1716401628685</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1716401628685</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learn about custom exceptions" />
     <MESSAGE value="Revising some old concepts" />
     <MESSAGE value="Object creation, references, equating using equals()" />
     <MESSAGE value="Learn what will be value of Object before &amp; after initialisation" />
@@ -665,7 +665,8 @@
     <MESSAGE value="System.out.println() internal , toString() basics etc" />
     <MESSAGE value="Singleton Class basics" />
     <MESSAGE value="Singleton Class more examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton Class more examples" />
+    <MESSAGE value="Eager vs Lazy initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eager vs Lazy initialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
