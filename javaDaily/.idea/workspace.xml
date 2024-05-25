@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Eager vs Lazy initialization">
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/SecondDBConnection.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Lazy Initialization explored, especially how it fails under multi-threaded scenario">
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe_DoubleCheckLock/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe_DoubleCheckLock/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +117,7 @@
     "Application.SingletonTest.Eager.Main.executor": "Debug",
     "Application.SingletonTest.Lazy.Main.executor": "Debug",
     "Application.SingletonTest.Main.executor": "Debug",
+    "Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main.executor": "Debug",
     "Application.SleepTest.executor": "Debug",
     "Application.SquareRoot.executor": "Debug",
     "Application.StackMemoryExample.executor": "Debug",
@@ -149,20 +153,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LazyInitializationSecond">
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.GFG" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingletonTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main">
     <configuration name="LazyInitializationSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.LazyInitializationSecond" />
       <module name="javaDaily" />
@@ -189,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.Eager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Eager.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.ThreadSafe.Main" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.Eager.*" />
+          <option name="PATTERN" value="SingletonTest.ThreadSafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,13 +206,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.ThreadSafe_DoubleCheckLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.ThreadSafe_DoubleCheckLock.Main" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTest.ThreadSafe_DoubleCheckLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LazyInitializationSecond" />
-        <item itemvalue="Application.LazyInitializationUsingThread" />
         <item itemvalue="Application.SingletonTest.Lazy.Main" />
-        <item itemvalue="Application.SingletonTest.Eager.Main" />
-        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.LazyInitializationUsingThread" />
       </list>
     </recent_temporary>
   </component>
@@ -233,14 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Basics of Throw and Throws keyword">
-      <option name="closed" value="true" />
-      <created>1711045735605</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1711045735605</updated>
     </task>
     <task id="LOCAL-00027" summary="Throw and Throws keyword theory">
       <option name="closed" value="true" />
@@ -626,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716401628685</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Lazy Initialization explored, especially how it fails under multi-threaded scenario">
+      <option name="closed" value="true" />
+      <created>1716488741790</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1716488741791</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Revising some old concepts" />
     <MESSAGE value="Object creation, references, equating using equals()" />
     <MESSAGE value="Learn what will be value of Object before &amp; after initialisation" />
     <MESSAGE value="Learning Object allocation in m/y" />
@@ -666,7 +669,8 @@
     <MESSAGE value="Singleton Class basics" />
     <MESSAGE value="Singleton Class more examples" />
     <MESSAGE value="Eager vs Lazy initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eager vs Lazy initialization" />
+    <MESSAGE value="Lazy Initialization explored, especially how it fails under multi-threaded scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lazy Initialization explored, especially how it fails under multi-threaded scenario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

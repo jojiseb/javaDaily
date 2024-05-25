@@ -6,11 +6,7 @@ public class LazyInitializationSecond {
 
         SecondDBConnection secondDBConnection1 = SecondDBConnection.getInstance();
 
-        if(secondDBConnection.hashCode() == secondDBConnection1.hashCode()) {
-            System.out.println("Same Objects");
-        }
-        else {
-            System.out.println("Different Objects");
-        }
+        System.out.println(secondDBConnection);
+        System.out.println(secondDBConnection1);
     }
 }
