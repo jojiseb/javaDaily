@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="-Learn some more examples regarding how Lazy initialization isn't thread Safe&#10;-Learn how to make singleton threadSafe using double-checked Locking principle">
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/BillPughSingleton/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/BillPughSingleton/Main.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Basics of Bill Pugh Implementation">
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/DBConnection1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +149,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="LazyInitializationSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.LazyInitializationSecond" />
       <module name="javaDaily" />
@@ -176,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.BillPughSingleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.BillPughSingleton.Main" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Eager.Main1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.BillPughSingleton.*" />
+          <option name="PATTERN" value="SingletonTest.Eager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.Lazy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.Main" />
+    <configuration name="SingletonTest.BillPughSingleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.BillPughSingleton.Main" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.Lazy.*" />
+          <option name="PATTERN" value="SingletonTest.BillPughSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main" />
         <item itemvalue="Application.SingletonTest.BillPughSingleton.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LazyInitializationSecond" />
-        <item itemvalue="Application.SingletonTest.Lazy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -233,14 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Throw Keyword example">
-      <option name="closed" value="true" />
-      <created>1711218471804</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1711218471804</updated>
     </task>
     <task id="LOCAL-00029" summary="Throw Keyword example">
       <option name="closed" value="true" />
@@ -626,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716658895486</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Basics of Bill Pugh Implementation">
+      <option name="closed" value="true" />
+      <created>1716745962857</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1716745962857</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learn what will be value of Object before &amp; after initialisation" />
     <MESSAGE value="Learning Object allocation in m/y" />
     <MESSAGE value="Learn impact of using this keyword in toString() &#10;&#10;- Whenever an object is concatenated with a String, toString() is called&#10;- Causes StackOverflow error here, due to recursive calls to toString() implementation&#10;- toString() implementation here can be called here by : printing Object, using callCheck() which performs a concatenation&#10;- Avoid using this keyword in toString() implementation" />
     <MESSAGE value="Stack And Heap Memory examples" />
@@ -666,7 +665,8 @@
     <MESSAGE value="Eager vs Lazy initialization" />
     <MESSAGE value="Lazy Initialization explored, especially how it fails under multi-threaded scenario" />
     <MESSAGE value="-Learn some more examples regarding how Lazy initialization isn't thread Safe&#10;-Learn how to make singleton threadSafe using double-checked Locking principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Learn some more examples regarding how Lazy initialization isn't thread Safe&#10;-Learn how to make singleton threadSafe using double-checked Locking principle" />
+    <MESSAGE value="Basics of Bill Pugh Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basics of Bill Pugh Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
