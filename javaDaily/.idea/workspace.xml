@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Lazy Initialization example">
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe/DBConnection1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe_DoubleCheckLock/DBConnection1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe_DoubleCheckLock/Main1.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Singleton examples">
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/BillPughSingleton/DBConnection1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/BillPughSingleton/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/DBConnection2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Eager/Use-Case" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Enum/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Enum/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/FourthDBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/Use-Case" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/LazyInitializationOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/SecondDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/Lazy/SecondDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe_DoubleCheckLock/DBConnection1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/ThreadSafe_DoubleCheckLock/DBConnection1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -43,123 +53,125 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArithmeticException.executor": "Debug",
-    "Application.ArrayIndex.executor": "Debug",
-    "Application.BestPractice.executor": "Debug",
-    "Application.Calculator.executor": "Debug",
-    "Application.Car.executor": "Debug",
-    "Application.CatchException.executor": "Debug",
-    "Application.CheckedException.FileProcessor.executor": "Debug",
-    "Application.ConcurrentModificationException.executor": "Debug",
-    "Application.CustomException1.executor": "Debug",
-    "Application.CustomTestException.executor": "Debug",
-    "Application.Data.executor": "Debug",
-    "Application.Demo.executor": "Debug",
-    "Application.DemoCheck.executor": "Debug",
-    "Application.Department.executor": "Debug",
-    "Application.EmployeeFinalize.executor": "Debug",
-    "Application.ExceptionCallStackExample.executor": "Debug",
-    "Application.ExceptionCallStackExample1.executor": "Debug",
-    "Application.ExceptionHandling.executor": "Debug",
-    "Application.ExceptionInFinalize.executor": "Debug",
-    "Application.ExceptionNotHandled.executor": "Debug",
-    "Application.FileCheck.executor": "Debug",
-    "Application.FileCheck1.executor": "Debug",
-    "Application.FileNotFoundEx1.executor": "Debug",
-    "Application.FileProcessor.executor": "Debug",
-    "Application.FinalizationNumber.executor": "Debug",
-    "Application.FinalizeAsNormal.executor": "Debug",
-    "Application.FinalizeDemo.executor": "Debug",
-    "Application.FinalizeEx1.executor": "Debug",
-    "Application.FinalizeExplicit.executor": "Debug",
-    "Application.FinalizeTest.executor": "Debug",
-    "Application.Finally2.executor": "Debug",
-    "Application.FinallyExample.executor": "Debug",
-    "Application.GFG.executor": "Debug",
-    "Application.HeapMemoryExample.executor": "Debug",
-    "Application.ImportTest.executor": "Debug",
-    "Application.ImportUserDefinedEx.executor": "Debug",
-    "Application.InnerClasses.executor": "Debug",
-    "Application.InnerClasses1.executor": "Debug",
-    "Application.InnerClasses2.executor": "Debug",
-    "Application.InnerClasses3.executor": "Debug",
-    "Application.InvalidAgeCustomException.executor": "Debug",
-    "Application.LazyInitializationSecond.executor": "Debug",
-    "Application.LazyInitializationUsingThread.executor": "Debug",
-    "Application.LifeTimeOfFinalizedObject.executor": "Debug",
-    "Application.Main.executor": "Debug",
-    "Application.Main1.executor": "Debug",
-    "Application.Main2.executor": "Debug",
-    "Application.Main3.executor": "Debug",
-    "Application.MainOne.executor": "Debug",
-    "Application.MainPart2.executor": "Debug",
-    "Application.MainPart3.executor": "Debug",
-    "Application.MainPart4.executor": "Debug",
-    "Application.MainStudent.executor": "Debug",
-    "Application.MainTest.executor": "Debug",
-    "Application.Marksheet.executor": "Debug",
-    "Application.MemoryAllocationEx.executor": "Debug",
-    "Application.MultiCatch1.executor": "Debug",
-    "Application.MultiCatch2.executor": "Debug",
-    "Application.NestedTryCatch.executor": "Debug",
-    "Application.NoSuchElementException.executor": "Debug",
-    "Application.NullPointerEx1.executor": "Debug",
-    "Application.NullPointerException.executor": "Debug",
-    "Application.NumberComparison.executor": "Debug",
-    "Application.NumberComparison1.executor": "Debug",
-    "Application.OutOfMemoryDemo1.executor": "Debug",
-    "Application.OutOfMemoryException.executor": "Debug",
-    "Application.SingletonTest.BillPughSingleton.Main.executor": "Debug",
-    "Application.SingletonTest.Eager.Main.executor": "Debug",
-    "Application.SingletonTest.Lazy.Main.executor": "Debug",
-    "Application.SingletonTest.Main.executor": "Debug",
-    "Application.SingletonTest.ThreadSafe.Main1.executor": "Debug",
-    "Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main.executor": "Debug",
-    "Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main1.executor": "Debug",
-    "Application.SleepTest.executor": "Debug",
-    "Application.SquareRoot.executor": "Debug",
-    "Application.StackMemoryExample.executor": "Debug",
-    "Application.StackOverflowExample.executor": "Debug",
-    "Application.StaticDefault1.executor": "Debug",
-    "Application.StaticExecutionOrder.executor": "Debug",
-    "Application.StaticKeywordExample.executor": "Debug",
-    "Application.StaticMethod1.executor": "Debug",
-    "Application.StaticVariable1.executor": "Debug",
-    "Application.Student.executor": "Debug",
-    "Application.ThrowEx1.executor": "Debug",
-    "Application.ThrowEx2.executor": "Debug",
-    "Application.ThrowExample.executor": "Debug",
-    "Application.ThrowExample1.executor": "Debug",
-    "Application.ThrowsDemo.executor": "Debug",
-    "Application.ThrowsDemo1.executor": "Debug",
-    "Application.ThrowsEx1.executor": "Debug",
-    "Application.ThrowsEx2.executor": "Debug",
-    "Application.ThrowsExample.executor": "Debug",
-    "Application.ThrowsExample2.executor": "Debug",
-    "Application.TryCatch_1.executor": "Debug",
-    "Application.UtilityClassEx.executor": "Debug",
-    "Application.VectorEx.executor": "Debug",
-    "Application.Which.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/asus/codecrafters-http-server-java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArithmeticException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArrayIndex.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BestPractice.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Car.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CatchException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CheckedException.FileProcessor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ConcurrentModificationException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CustomException1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CustomTestException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Data.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DemoCheck.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Department.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EmployeeFinalize.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionCallStackExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionCallStackExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionHandling.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionInFinalize.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionNotHandled.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileCheck.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileCheck1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileNotFoundEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileProcessor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizationNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeAsNormal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeExplicit.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Finally2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinallyExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GFG.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HeapMemoryExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ImportTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ImportUserDefinedEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InvalidAgeCustomException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LazyInitializationSecond.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LazyInitializationUsingThread.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LifeTimeOfFinalizedObject.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainOne.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainPart2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainPart3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainPart4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainStudent.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Marksheet.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MemoryAllocationEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MultiCatch1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MultiCatch2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NestedTryCatch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NoSuchElementException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NullPointerEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NullPointerException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumberComparison.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumberComparison1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OutOfMemoryDemo1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OutOfMemoryException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.BillPughSingleton.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.BillPughSingleton.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Eager.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Eager.Main2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Lazy.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.ThreadSafe.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SleepTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SquareRoot.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StackMemoryExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StackOverflowExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticDefault1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticExecutionOrder.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticKeywordExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticMethod1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticVariable1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowEx2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsDemo1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsEx2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsExample2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TryCatch_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UtilityClassEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VectorEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Which.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/codecrafters-http-server-java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main1">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Eager.Main1" />
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InnerClasses3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.InnerClasses3" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.Eager.*" />
+          <option name="PATTERN" value="StaticEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,8 +179,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.Main2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Enum.Main" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTest.Enum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.Main3" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -180,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.ThreadSafe_DoubleCheckLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.ThreadSafe_DoubleCheckLock.Main" />
+    <configuration name="SingletonTest.BillPughSingleton.Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.BillPughSingleton.Main1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.ThreadSafe_DoubleCheckLock.*" />
+          <option name="PATTERN" value="SingletonTest.BillPughSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,25 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.ThreadSafe_DoubleCheckLock.Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.ThreadSafe_DoubleCheckLock.Main1" />
+    <configuration name="SingletonTest.Eager.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTest.Eager.Main2" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.ThreadSafe_DoubleCheckLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.ThreadSafe.Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.ThreadSafe.Main1" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingletonTest.ThreadSafe.*" />
+          <option name="PATTERN" value="SingletonTest.Eager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main1" />
-        <item itemvalue="Application.SingletonTest.ThreadSafe.Main1" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.SingletonTest.Eager.Main2" />
+        <item itemvalue="Application.SingletonTest.BillPughSingleton.Main1" />
+        <item itemvalue="Application.InnerClasses3" />
       </list>
     </recent_temporary>
   </component>
@@ -237,14 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Custom exception example using throw and throws keyword">
-      <option name="closed" value="true" />
-      <created>1711338855586</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1711338855586</updated>
     </task>
     <task id="LOCAL-00032" summary="Add CustomTestException for learning">
       <option name="closed" value="true" />
@@ -630,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717439934228</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Singleton examples">
+      <option name="closed" value="true" />
+      <created>1717609251411</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1717609251412</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stack And Heap Memory examples" />
     <MESSAGE value="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError" />
     <MESSAGE value="Start learn about Wrapper classes" />
     <MESSAGE value="Wrapper ex. revising Swapping values" />
@@ -670,7 +681,8 @@
     <MESSAGE value="Basics of Bill Pugh Implementation" />
     <MESSAGE value="Eager Initialization repetition" />
     <MESSAGE value="Lazy Initialization example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lazy Initialization example" />
+    <MESSAGE value="Singleton examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

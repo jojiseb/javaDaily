@@ -10,6 +10,6 @@ public class SecondDBConnection {
             instance = new SecondDBConnection();    //Things go south when applied to multi-threaded envt. Multiple objects
         }   //gets created instead of single object if multiple threads inside if block at same time.
         return instance;
-        //Therefore, Singleton Pattern is desrotyed and both threads get different instances of Singleton Class
+        //Therefore, Singleton Pattern is destroyed and both threads get different instances of Singleton Class
     }
 }

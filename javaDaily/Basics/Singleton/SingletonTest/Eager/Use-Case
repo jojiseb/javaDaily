@@ -1,0 +1,6 @@
+
+--> Use Eager Initialization when the application requires the instance to be available
+    throughout the execution of program. So, We use eager initialization instead
+    of lazy initialization.
+--> Useful when the overhead of instance creation isn't significant & you want to ensure
+    that the instance is available without delay when first called.

@@ -1,0 +1,17 @@
+
+--> Lazy Initialization is a technique where the singleton instance isn't
+    created until its actually needed.
+--> Useful in scenarios where the instance is heavy, meaning it consumes significant
+    memory or requires considerable time for initialization. By deferring the creation of such
+    an instance, you avoid burdening the application's startup time and overall performance
+    when the instance isn't immediately necessary.
+
+
+    Example :
+
+    Suppose your app has a component that processes large datasets, but this component is only occasionally used.
+    If this component is implemented as a singleton and initialized eagerly, every time your app starts, it would
+    resources immediately - even if it's not used right away.
+
+    So, Using Lazy initialization, this resource heavy object is created only at the point of its first use,
+    thus saving initial resources and improving startUp time.
