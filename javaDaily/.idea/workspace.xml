@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="-Learn something xtra - Using ENUM for Singleton which is more faster, easy to define etc.&#10;- Some more examples in detail for Singleton">
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/BillPughSingleton/DBConnection2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Singleton/SingletonTest/BillPughSingleton/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Vehicle.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Bill Pugh Singleton and static keyword practice">
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticAndFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticVariable2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
     "Application.CatchException.executor": "Debug",
     "Application.CheckedException.FileProcessor.executor": "Debug",
     "Application.ConcurrentModificationException.executor": "Debug",
+    "Application.Country.executor": "Debug",
     "Application.CustomException1.executor": "Debug",
     "Application.CustomTestException.executor": "Debug",
     "Application.Data.executor": "Debug",
@@ -86,6 +90,8 @@
     "Application.InnerClasses1.executor": "Debug",
     "Application.InnerClasses2.executor": "Debug",
     "Application.InnerClasses3.executor": "Debug",
+    "Application.InstanceInitializer.executor": "Debug",
+    "Application.InstanceInitializer1.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
     "Application.LazyInitializationSecond.executor": "Debug",
     "Application.LazyInitializationUsingThread.executor": "Debug",
@@ -125,6 +131,7 @@
     "Application.SquareRoot.executor": "Debug",
     "Application.StackMemoryExample.executor": "Debug",
     "Application.StackOverflowExample.executor": "Debug",
+    "Application.StaticAndFinal.executor": "Debug",
     "Application.StaticDefault1.executor": "Debug",
     "Application.StaticExecutionOrder.executor": "Debug",
     "Application.StaticKeywordExample.executor": "Debug",
@@ -157,9 +164,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Vehicle">
-    <configuration name="BikeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.BikeMain" />
+  <component name="RunManager" selected="Application.InstanceInitializer1">
+    <configuration name="Country" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.Country" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -171,12 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Enum.Main" />
+    <configuration name="InstanceInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstanceInitializer" />
+      <module name="javaDaily" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceInitializer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstanceInitializer1" />
+      <module name="javaDaily" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticAndFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticAndFinal" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTest.Enum.*" />
+          <option name="PATTERN" value="StaticEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,34 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.BillPughSingleton.Main2" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingletonTest.BillPughSingleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTest.Lazy.Main3" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingletonTest.Lazy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vehicle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.Vehicle" />
+    <configuration name="StaticVariable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticVariable1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -225,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Vehicle" />
-        <item itemvalue="Application.BikeMain" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.InstanceInitializer1" />
+        <item itemvalue="Application.InstanceInitializer" />
+        <item itemvalue="Application.StaticAndFinal" />
+        <item itemvalue="Application.StaticVariable1" />
+        <item itemvalue="Application.Country" />
       </list>
     </recent_temporary>
   </component>
@@ -241,14 +236,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Throws test">
-      <option name="closed" value="true" />
-      <created>1711477261475</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1711477261475</updated>
     </task>
     <task id="LOCAL-00034" summary="ArrayIndexOutOfBounds example">
       <option name="closed" value="true" />
@@ -634,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718044272074</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Bill Pugh Singleton and static keyword practice">
+      <option name="closed" value="true" />
+      <created>1718130221840</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1718130221841</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start learn about Wrapper classes" />
     <MESSAGE value="Wrapper ex. revising Swapping values" />
     <MESSAGE value="Learn about java packages, how they are related to directories" />
     <MESSAGE value="Learn java packages in detail...Learnt is heard" />
@@ -674,7 +668,8 @@
     <MESSAGE value="Lazy Initialization example" />
     <MESSAGE value="Singleton examples" />
     <MESSAGE value="-Learn something xtra - Using ENUM for Singleton which is more faster, easy to define etc.&#10;- Some more examples in detail for Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Learn something xtra - Using ENUM for Singleton which is more faster, easy to define etc.&#10;- Some more examples in detail for Singleton" />
+    <MESSAGE value="Bill Pugh Singleton and static keyword practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bill Pugh Singleton and static keyword practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
