@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Bill Pugh Singleton and static keyword practice">
-      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticAndFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticVariable2.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Revising Static keyword, Instance Initializer etc">
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/NamedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/NamedClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/WIthInstanceInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,8 @@
     "Application.DemoCheck.executor": "Debug",
     "Application.Department.executor": "Debug",
     "Application.EmployeeFinalize.executor": "Debug",
+    "Application.Example.executor": "Debug",
+    "Application.Example1.executor": "Debug",
     "Application.ExceptionCallStackExample.executor": "Debug",
     "Application.ExceptionCallStackExample1.executor": "Debug",
     "Application.ExceptionHandling.executor": "Debug",
@@ -92,6 +95,7 @@
     "Application.InnerClasses3.executor": "Debug",
     "Application.InstanceInitializer.executor": "Debug",
     "Application.InstanceInitializer1.executor": "Debug",
+    "Application.InstanceInitializer2.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
     "Application.LazyInitializationSecond.executor": "Debug",
     "Application.LazyInitializationUsingThread.executor": "Debug",
@@ -110,6 +114,8 @@
     "Application.MemoryAllocationEx.executor": "Debug",
     "Application.MultiCatch1.executor": "Debug",
     "Application.MultiCatch2.executor": "Debug",
+    "Application.NamedClass.executor": "Debug",
+    "Application.NamedClass2.executor": "Debug",
     "Application.NestedTryCatch.executor": "Debug",
     "Application.NoSuchElementException.executor": "Debug",
     "Application.NullPointerEx1.executor": "Debug",
@@ -152,6 +158,7 @@
     "Application.UtilityClassEx.executor": "Debug",
     "Application.VectorEx.executor": "Debug",
     "Application.Vehicle.executor": "Debug",
+    "Application.WIthInstanceInitializer.executor": "Debug",
     "Application.Which.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -164,67 +171,49 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InstanceInitializer1">
-    <configuration name="Country" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.Country" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstanceInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InstanceInitializer" />
+  <component name="RunManager" selected="Application.NamedClass2">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInitializer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InstanceInitializer1" />
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example1" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticAndFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticAndFinal" />
+    <configuration name="NamedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NamedClass" />
       <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticVariable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticEx.StaticVariable1" />
+    <configuration name="NamedClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NamedClass2" />
       <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WIthInstanceInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WIthInstanceInitializer" />
+      <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InstanceInitializer1" />
-        <item itemvalue="Application.InstanceInitializer" />
-        <item itemvalue="Application.StaticAndFinal" />
-        <item itemvalue="Application.StaticVariable1" />
-        <item itemvalue="Application.Country" />
+        <item itemvalue="Application.NamedClass2" />
+        <item itemvalue="Application.NamedClass" />
+        <item itemvalue="Application.Example1" />
+        <item itemvalue="Application.WIthInstanceInitializer" />
+        <item itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -236,14 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00034" summary="ArrayIndexOutOfBounds example">
-      <option name="closed" value="true" />
-      <created>1711565021989</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1711565021989</updated>
     </task>
     <task id="LOCAL-00035" summary="ArrayIndexOutOfBounds explained">
       <option name="closed" value="true" />
@@ -629,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718130221841</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Revising Static keyword, Instance Initializer etc">
+      <option name="closed" value="true" />
+      <created>1718301877182</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1718301877186</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,7 +633,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wrapper ex. revising Swapping values" />
     <MESSAGE value="Learn about java packages, how they are related to directories" />
     <MESSAGE value="Learn java packages in detail...Learnt is heard" />
     <MESSAGE value="Add User-defined packages&#10;-Analysed what makes them different from java based pkgs&#10;-Learnt different ways to import a package" />
@@ -669,7 +657,8 @@
     <MESSAGE value="Singleton examples" />
     <MESSAGE value="-Learn something xtra - Using ENUM for Singleton which is more faster, easy to define etc.&#10;- Some more examples in detail for Singleton" />
     <MESSAGE value="Bill Pugh Singleton and static keyword practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bill Pugh Singleton and static keyword practice" />
+    <MESSAGE value="Revising Static keyword, Instance Initializer etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revising Static keyword, Instance Initializer etc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
