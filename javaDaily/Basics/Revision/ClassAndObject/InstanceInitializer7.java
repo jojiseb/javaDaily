@@ -1,0 +1,2 @@
+public class InstanceInitializer7 {
+}
