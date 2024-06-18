@@ -13,3 +13,19 @@ Advantages of Static Variables and Methods:
 --> Object Independence
 --> Performance
 --> Code Organization
+
+Static Methods : Hiding
+
+Nature of Static Methods:
+
+--> Static methods belong to the class rather than any instance of the class.
+--> This means they are shared among all instances of the class and can be called without creating an instance of class.
+
+Method Hiding:
+
+--> When a sub-class defines a static method with same signature as a static method in superclass, the method in subclass hides
+    the one in the super class. This isn't same as overriding because:
+
+    --> The hidden method in super class remains accessible, and it can be invoked if the superclass is specified explicitly.
+    --> Static methods are bound at compile time based on the type of reference variable, not the object it points to at runtime.
+        Hence, the method that gets called is determined by the type of reference, not by the runtime type of the object.

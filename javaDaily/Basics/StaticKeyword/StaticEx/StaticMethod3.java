@@ -1,21 +1,21 @@
 package StaticEx;
 
 class Animal {
-    static void eat() {
+    static void eat() { //static method
         System.out.println("Animal is eating");
     }
 
-    void hello() {
+    void hello() {  //instance method
         System.out.println("Hello from animal");
     }
 }
 
 class  Dog extends Animal {
-    static void eat() {
+    static void eat() { //static method
         System.out.println("Dog is eating");
     }
 
-    void hello() {
+    void hello() {  //instance method
         System.out.println("Hello from Dog");
     }
 }
