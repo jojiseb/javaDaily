@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Static , Abstract classes">
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/AlarmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/DefaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/HelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/SenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/ShapeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/SubjectTest.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Abstract class vs interface examples">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/MemberInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticBlock/StaticBlock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticBlock/StaticBlock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/VehicleCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/oops/objectAndClass/SenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/SenderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +128,7 @@
     "Application.MainStudent.executor": "Debug",
     "Application.MainTest.executor": "Debug",
     "Application.Marksheet.executor": "Debug",
+    "Application.MemberInner.executor": "Debug",
     "Application.MemoryAllocationEx.executor": "Debug",
     "Application.MultiCatch1.executor": "Debug",
     "Application.MultiCatch2.executor": "Debug",
@@ -141,7 +144,10 @@
     "Application.NumberComparison1.executor": "Debug",
     "Application.OutOfMemoryDemo1.executor": "Debug",
     "Application.OutOfMemoryException.executor": "Debug",
+    "Application.Outer.executor": "Debug",
+    "Application.OuterClass.executor": "Debug",
     "Application.PrimitiveEx.executor": "Debug",
+    "Application.SenderTest.executor": "Debug",
     "Application.ShapeInterface.executor": "Debug",
     "Application.ShapeNew.executor": "Debug",
     "Application.SingletonTest.BillPughSingleton.Main.executor": "Debug",
@@ -158,6 +164,8 @@
     "Application.StackMemoryExample.executor": "Debug",
     "Application.StackOverflowExample.executor": "Debug",
     "Application.StaticAndFinal.executor": "Debug",
+    "Application.StaticBlock1.executor": "Debug",
+    "Application.StaticBlock2.executor": "Debug",
     "Application.StaticDefault1.executor": "Debug",
     "Application.StaticExecutionOrder.executor": "Debug",
     "Application.StaticKeywordExample.executor": "Debug",
@@ -165,6 +173,8 @@
     "Application.StaticMethod2.executor": "Debug",
     "Application.StaticMethod3.executor": "Debug",
     "Application.StaticMethod4.executor": "Debug",
+    "Application.StaticTest.executor": "Debug",
+    "Application.StaticTest2.executor": "Debug",
     "Application.StaticVariable1.executor": "Debug",
     "Application.Student.executor": "Debug",
     "Application.SubjectTest.executor": "Debug",
@@ -182,6 +192,7 @@
     "Application.UtilityClassEx.executor": "Debug",
     "Application.VectorEx.executor": "Debug",
     "Application.Vehicle.executor": "Debug",
+    "Application.VehicleCheck.executor": "Debug",
     "Application.WIthInstanceInitializer.executor": "Debug",
     "Application.Which.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -195,13 +206,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HelperTest">
-    <configuration name="AbstractShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClass.AbstractShape" />
+  <component name="RunManager" selected="Application.OuterClass">
+    <configuration name="MemberInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClasses.MemberInner" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="PATTERN" value="InnerClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlarmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClass.AlarmTest" />
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClasses.Outer" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="PATTERN" value="InnerClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClass.DefaultTest" />
+    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticNestedClass.OuterClass" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="PATTERN" value="StaticNestedClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClass.HelperTest" />
+    <configuration name="StaticBlock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticBlock.StaticBlock1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="PATTERN" value="StaticBlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectAndClass.SubjectTest" />
+    <configuration name="StaticBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticBlock.StaticBlock2" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectAndClass.*" />
+          <option name="PATTERN" value="StaticBlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelperTest" />
-        <item itemvalue="Application.AlarmTest" />
-        <item itemvalue="Application.SubjectTest" />
-        <item itemvalue="Application.DefaultTest" />
-        <item itemvalue="Application.AbstractShape" />
+        <item itemvalue="Application.OuterClass" />
+        <item itemvalue="Application.MemberInner" />
+        <item itemvalue="Application.Outer" />
+        <item itemvalue="Application.StaticBlock2" />
+        <item itemvalue="Application.StaticBlock1" />
       </list>
     </recent_temporary>
   </component>
@@ -279,14 +290,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00038" summary="try-Catch test 2&#10;&#10;-The exception causing code is what we enclose in try block and the exception is caught in catch block">
-      <option name="closed" value="true" />
-      <created>1712112469952</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1712112469952</updated>
     </task>
     <task id="LOCAL-00039" summary="try block with multiple catch blocks&#10;&#10;-Catch blocks should be specified such that Main Exception class must always be in the lower catch block&#10;-Others will be the possible exception classes in top catch blocks">
       <option name="closed" value="true" />
@@ -672,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718734653811</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Abstract class vs interface examples">
+      <option name="closed" value="true" />
+      <created>1719164214926</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1719164214927</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -687,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Package level access-control" />
     <MESSAGE value="Started static keyword case" />
     <MESSAGE value="Static variables basic examples, variable access conventions using static" />
     <MESSAGE value="Static variable Car example" />
@@ -712,7 +722,8 @@
     <MESSAGE value="NamedClass vs Anonymous Class" />
     <MESSAGE value="-Instance initializers in depth including anonymous classes, Named Classes&#10;-Static Methods and Instance Methods" />
     <MESSAGE value="Static , Abstract classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static , Abstract classes" />
+    <MESSAGE value="Abstract class vs interface examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract class vs interface examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
