@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Abstract class vs interface examples">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/MemberInner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticBlock/StaticBlock1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticBlock/StaticBlock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticEx/StaticTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/VehicleCheck.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn about static inner classes, static block">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/oops/objectAndClass/SenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/oops/objectAndClass/SenderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +110,7 @@
     "Application.LazyInitializationSecond.executor": "Debug",
     "Application.LazyInitializationUsingThread.executor": "Debug",
     "Application.LifeTimeOfFinalizedObject.executor": "Debug",
+    "Application.LocalInnerClass.Outer.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.Main1.executor": "Debug",
     "Application.Main2.executor": "Debug",
@@ -146,6 +140,7 @@
     "Application.OutOfMemoryException.executor": "Debug",
     "Application.Outer.executor": "Debug",
     "Application.OuterClass.executor": "Debug",
+    "Application.OuterClass1.executor": "Debug",
     "Application.PrimitiveEx.executor": "Debug",
     "Application.SenderTest.executor": "Debug",
     "Application.ShapeInterface.executor": "Debug",
@@ -206,7 +201,20 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OuterClass">
+  <component name="RunManager" selected="Application.LocalInnerClass.Outer">
+    <configuration name="LocalInnerClass.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LocalInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InnerClasses.MemberInner" />
       <module name="javaDaily" />
@@ -246,25 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticBlock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticBlock.StaticBlock1" />
+    <configuration name="OuterClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticNestedClass.OuterClass1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticBlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticBlock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticBlock.StaticBlock2" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticBlock.*" />
+          <option name="PATTERN" value="StaticNestedClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalInnerClass.Outer" />
+        <item itemvalue="Application.OuterClass1" />
         <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.MemberInner" />
         <item itemvalue="Application.Outer" />
-        <item itemvalue="Application.StaticBlock2" />
-        <item itemvalue="Application.StaticBlock1" />
       </list>
     </recent_temporary>
   </component>
@@ -290,14 +285,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00039" summary="try block with multiple catch blocks&#10;&#10;-Catch blocks should be specified such that Main Exception class must always be in the lower catch block&#10;-Others will be the possible exception classes in top catch blocks">
-      <option name="closed" value="true" />
-      <created>1712114510551</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1712114510551</updated>
     </task>
     <task id="LOCAL-00040" summary="Nested Try Catch Blocks&#10;&#10;-Exception causing code is in deep level of try block&#10;-It can be caught in deep level itself, else it will propagate outside to see where exactly it is properly caught&#10;-Here, It propagates until Main try-catch , where it is handled">
       <option name="closed" value="true" />
@@ -683,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719164214927</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Learn about static inner classes, static block">
+      <option name="closed" value="true" />
+      <created>1719511465065</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1719511465065</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started static keyword case" />
     <MESSAGE value="Static variables basic examples, variable access conventions using static" />
     <MESSAGE value="Static variable Car example" />
     <MESSAGE value="Static variables and cars example" />
@@ -723,7 +717,8 @@
     <MESSAGE value="-Instance initializers in depth including anonymous classes, Named Classes&#10;-Static Methods and Instance Methods" />
     <MESSAGE value="Static , Abstract classes" />
     <MESSAGE value="Abstract class vs interface examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract class vs interface examples" />
+    <MESSAGE value="Learn about static inner classes, static block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn about static inner classes, static block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
