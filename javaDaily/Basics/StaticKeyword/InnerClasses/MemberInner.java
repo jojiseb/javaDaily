@@ -10,6 +10,19 @@ public class MemberInner {
         void innerDisplay() { //Can access outer class's members including private ones
             System.out.println("Outer Field : "+outerField+", Test : "+test);
         }
+
+//        static void testStatic() {
+//
+//        }
+
+        //Can't define static members for Non-static Inner classes, as a non-static inner class is itself holds a reference to
+        //outer class instance. Declaring a member static means, it is dependent on class only.
+
+        //Having static members in nested classes, means defining class-level data that needs to be shared
+        //across all instances of inner class, independent of specific outer class instance
+
+        //This conflicts with the inner class dependency of outer class instance
+
     }  //Can access outer Field directly, cuz inner class instances hold a reference to
     //outer class instances
 

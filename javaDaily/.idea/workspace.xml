@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Learn about static inner classes, static block">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass1.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/NewEnclosing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/MemberInner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/MemberInner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +133,7 @@
     "Application.NamedClass3.executor": "Debug",
     "Application.NamedClass4.executor": "Debug",
     "Application.NestedTryCatch.executor": "Debug",
+    "Application.NewEnclosing.executor": "Debug",
     "Application.NoSuchElementException.executor": "Debug",
     "Application.NullPointerEx1.executor": "Debug",
     "Application.NullPointerException.executor": "Debug",
@@ -139,6 +142,7 @@
     "Application.OutOfMemoryDemo1.executor": "Debug",
     "Application.OutOfMemoryException.executor": "Debug",
     "Application.Outer.executor": "Debug",
+    "Application.Outer1.executor": "Debug",
     "Application.OuterClass.executor": "Debug",
     "Application.OuterClass1.executor": "Debug",
     "Application.PrimitiveEx.executor": "Debug",
@@ -201,7 +205,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LocalInnerClass.Outer">
+  <component name="RunManager" selected="Application.NewEnclosing">
     <configuration name="LocalInnerClass.Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer" />
       <module name="javaDaily" />
@@ -215,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.MemberInner" />
+    <configuration name="NewEnclosing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.NewEnclosing" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="PATTERN" value="LocalInnerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +232,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.Outer" />
+    <configuration name="Outer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="PATTERN" value="LocalInnerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewEnclosing" />
+        <item itemvalue="Application.Outer1" />
         <item itemvalue="Application.LocalInnerClass.Outer" />
         <item itemvalue="Application.OuterClass1" />
         <item itemvalue="Application.OuterClass" />
-        <item itemvalue="Application.MemberInner" />
-        <item itemvalue="Application.Outer" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +289,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Nested Try Catch Blocks&#10;&#10;-Exception causing code is in deep level of try block&#10;-It can be caught in deep level itself, else it will propagate outside to see where exactly it is properly caught&#10;-Here, It propagates until Main try-catch , where it is handled">
-      <option name="closed" value="true" />
-      <created>1712115390571</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1712115390571</updated>
     </task>
     <task id="LOCAL-00041" summary="Finally block&#10;&#10;-To execute code which needs to be run no matter what happens, basically runs everytime , during error and no error&#10;-To close resources used, like db connections, file operations etc.">
       <option name="closed" value="true" />
@@ -678,7 +674,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719511465065</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final">
+      <option name="closed" value="true" />
+      <created>1719684830331</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1719684830331</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -693,7 +697,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Static variables basic examples, variable access conventions using static" />
     <MESSAGE value="Static variable Car example" />
     <MESSAGE value="Static variables and cars example" />
     <MESSAGE value="Static Method beginning examples" />
@@ -718,7 +721,8 @@
     <MESSAGE value="Static , Abstract classes" />
     <MESSAGE value="Abstract class vs interface examples" />
     <MESSAGE value="Learn about static inner classes, static block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn about static inner classes, static block" />
+    <MESSAGE value="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,6 +749,9 @@
     <SUITE FILE_PATH="coverage/javaDaily$ArrayIndex.ic" NAME="ArrayIndex Coverage Results" MODIFIED="1712081004624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/javaDaily$Car.ic" NAME="Car Coverage Results" MODIFIED="1714212458166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StaticEx.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaDaily$Outer1.ic" NAME="Outer1 Coverage Results" MODIFIED="1719770536844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LocalInnerClass.*</FILTER>
     </SUITE>
   </component>
 </project>
