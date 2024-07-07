@@ -1,0 +1,12 @@
+
+An anonymous class is a local class without a name that can be used to define
+and instantiate a class simultaneously.
+
+It means it must be defined withing another class, making it a nested class without a name.
+Also called as Anonymous Inner Class
+
+An anonymous class has no name and produces only a single object.
+
+Anonymous class can be useful for providing quick implementations of interfaces, abstract classes
+in situations where creating a named class is lengthy or cumbersome.
+
