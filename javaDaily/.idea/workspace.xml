@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="practised multiple types of inner classes, why they are the way they are">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/ExtendingAClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/ImplementingAInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Runnable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/StaticAnonymousExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/What &amp; Why" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer3.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Inner class examples">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/ExtendingAClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/OuterClass6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,14 +145,18 @@
     "Application.OutOfMemoryException.executor": "Debug",
     "Application.Outer.executor": "Debug",
     "Application.Outer1.executor": "Debug",
+    "Application.Outer2.executor": "Debug",
     "Application.Outer3.executor": "Debug",
     "Application.OuterClass.executor": "Debug",
     "Application.OuterClass1.executor": "Debug",
+    "Application.OuterClass2.executor": "Debug",
+    "Application.OuterClass6.executor": "Debug",
     "Application.Outer_Class.executor": "Debug",
     "Application.Outer_Class1.executor": "Debug",
     "Application.Outer_Class2.executor": "Debug",
     "Application.Outer_Class3.executor": "Debug",
     "Application.Outer_Class4.executor": "Debug",
+    "Application.Outer_Class5.executor": "Debug",
     "Application.PrimitiveEx.executor": "Debug",
     "Application.Runnable1.executor": "Debug",
     "Application.SenderTest.executor": "Debug",
@@ -220,13 +219,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Outer_Class4">
-    <configuration name="ImplementingAInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.ImplementingAInterface" />
+  <component name="RunManager" selected="Application.Outer2">
+    <configuration name="Outer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer2" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AnonymousClasses.*" />
+          <option name="PATTERN" value="LocalInnerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,8 +233,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer_Class3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.Outer_Class3" />
+    <configuration name="OuterClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticNestedClass.OuterClass2" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticNestedClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OuterClass6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.OuterClass6" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -260,21 +272,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runnable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.Runnable1" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonymousClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticAnonymousExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.StaticAnonymousExample" />
+    <configuration name="Outer_Class5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.Outer_Class5" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -288,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer2" />
+        <item itemvalue="Application.OuterClass2" />
+        <item itemvalue="Application.OuterClass6" />
+        <item itemvalue="Application.Outer_Class5" />
         <item itemvalue="Application.Outer_Class4" />
-        <item itemvalue="Application.Runnable1" />
-        <item itemvalue="Application.StaticAnonymousExample" />
-        <item itemvalue="Application.Outer_Class3" />
-        <item itemvalue="Application.ImplementingAInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +303,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Throw and Throws exmaple">
-      <option name="closed" value="true" />
-      <created>1712342134161</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1712342134161</updated>
     </task>
     <task id="LOCAL-00043" summary="Throw and Throws better example">
       <option name="closed" value="true" />
@@ -697,7 +688,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719857004627</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Anonymous Inner class examples">
+      <option name="closed" value="true" />
+      <created>1720373420270</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1720373420271</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Static variables and cars example" />
     <MESSAGE value="Static Method beginning examples" />
     <MESSAGE value="- Default values of static variables&#10;- Execution Order for static variables" />
     <MESSAGE value="- Static Inner Classes" />
@@ -737,7 +735,8 @@
     <MESSAGE value="Learn about static inner classes, static block" />
     <MESSAGE value="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final" />
     <MESSAGE value="practised multiple types of inner classes, why they are the way they are" />
-    <option name="LAST_COMMIT_MESSAGE" value="practised multiple types of inner classes, why they are the way they are" />
+    <MESSAGE value="Anonymous Inner class examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Inner class examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
