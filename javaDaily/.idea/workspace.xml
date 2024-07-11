@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Inner class examples">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/ExtendingAClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/OuterClass6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/Outer_Class5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/Outer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass2.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Practising Different Inner classes ranging from memberInner, Local Inner, Static Nested , Anonymous Classes">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/ExtendingAClass1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,11 @@
     "Application.AlarmTest.executor": "Debug",
     "Application.AnimalEx.executor": "Debug",
     "Application.AnimalNew.executor": "Debug",
+    "Application.AnonymousLearn.executor": "Debug",
+    "Application.AnonymousLearn1.executor": "Debug",
+    "Application.AnonymousLearn2.executor": "Debug",
+    "Application.AnonymousLearn3.executor": "Debug",
+    "Application.AnonymousLearn4.executor": "Debug",
     "Application.ArithmeticException.executor": "Debug",
     "Application.ArrayIndex.executor": "Debug",
     "Application.Base.executor": "Debug",
@@ -219,35 +225,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Outer2">
-    <configuration name="Outer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer2" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LocalInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OuterClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticNestedClass.OuterClass2" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StaticNestedClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OuterClass6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.OuterClass6" />
+  <component name="RunManager" selected="Application.AnonymousLearn5">
+    <configuration name="AnonymousLearn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -259,8 +239,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer_Class4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.Outer_Class4" />
+    <configuration name="AnonymousLearn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn2" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -272,8 +252,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer_Class5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.Outer_Class5" />
+    <configuration name="AnonymousLearn3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn3" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AnonymousClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousLearn4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn4" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AnonymousClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousLearn5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn5" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -287,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Outer2" />
-        <item itemvalue="Application.OuterClass2" />
-        <item itemvalue="Application.OuterClass6" />
-        <item itemvalue="Application.Outer_Class5" />
-        <item itemvalue="Application.Outer_Class4" />
+        <item itemvalue="Application.AnonymousLearn5" />
+        <item itemvalue="Application.AnonymousLearn4" />
+        <item itemvalue="Application.AnonymousLearn3" />
+        <item itemvalue="Application.AnonymousLearn2" />
+        <item itemvalue="Application.AnonymousLearn1" />
       </list>
     </recent_temporary>
   </component>
@@ -303,14 +309,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Throw and Throws better example">
-      <option name="closed" value="true" />
-      <created>1712373615185</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1712373615185</updated>
     </task>
     <task id="LOCAL-00044" summary="Throw and Throws in detail&#10;&#10;- Why and When do we use each">
       <option name="closed" value="true" />
@@ -696,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720373420271</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Practising Different Inner classes ranging from memberInner, Local Inner, Static Nested , Anonymous Classes">
+      <option name="closed" value="true" />
+      <created>1720550047341</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1720550047341</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -711,7 +717,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Static Method beginning examples" />
     <MESSAGE value="- Default values of static variables&#10;- Execution Order for static variables" />
     <MESSAGE value="- Static Inner Classes" />
     <MESSAGE value="- Example of Static inner class" />
@@ -736,7 +741,8 @@
     <MESSAGE value="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final" />
     <MESSAGE value="practised multiple types of inner classes, why they are the way they are" />
     <MESSAGE value="Anonymous Inner class examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Inner class examples" />
+    <MESSAGE value="Practising Different Inner classes ranging from memberInner, Local Inner, Static Nested , Anonymous Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practising Different Inner classes ranging from memberInner, Local Inner, Static Nested , Anonymous Classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
