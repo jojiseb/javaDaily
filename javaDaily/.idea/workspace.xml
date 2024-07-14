@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Class types">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn9.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Class examples">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +53,8 @@
     "Application.AnonymousLearn.executor": "Debug",
     "Application.AnonymousLearn1.executor": "Debug",
     "Application.AnonymousLearn10.executor": "Debug",
+    "Application.AnonymousLearn11.executor": "Debug",
+    "Application.AnonymousLearn12.executor": "Debug",
     "Application.AnonymousLearn2.executor": "Debug",
     "Application.AnonymousLearn3.executor": "Debug",
     "Application.AnonymousLearn4.executor": "Debug",
@@ -228,7 +228,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AnonymousLearn10">
+  <component name="RunManager" selected="Application.AnonymousLearn12">
     <configuration name="AnonymousLearn10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn10" />
       <module name="javaDaily" />
@@ -242,8 +242,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousLearn5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn5" />
+    <configuration name="AnonymousLearn11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn11" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -255,8 +255,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousLearn6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn6" />
+    <configuration name="AnonymousLearn12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn12" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -296,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousLearn12" />
+        <item itemvalue="Application.AnonymousLearn11" />
         <item itemvalue="Application.AnonymousLearn10" />
         <item itemvalue="Application.AnonymousLearn8" />
         <item itemvalue="Application.AnonymousLearn7" />
-        <item itemvalue="Application.AnonymousLearn6" />
-        <item itemvalue="Application.AnonymousLearn5" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Learnt how FileNotFoundException and IOException are related&#10;&#10;-Exception handling in java is based on inheritance hierarchy&#10;-FileNotFoundException occur due to tried to read contents from a file which doesn't exist using FileInputStream class&#10;-So, It's an IOException in general">
-      <option name="closed" value="true" />
-      <created>1712642291903</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1712642291903</updated>
     </task>
     <task id="LOCAL-00046" summary="OutOfMemoryException occurred">
       <option name="closed" value="true" />
@@ -705,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720721897494</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Anonymous Class examples">
+      <option name="closed" value="true" />
+      <created>1720807062898</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1720807062899</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -720,7 +720,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Static Inner Classes" />
     <MESSAGE value="- Example of Static inner class" />
     <MESSAGE value="System.out.println() internal , toString() basics etc" />
     <MESSAGE value="Singleton Class basics" />
@@ -745,7 +744,8 @@
     <MESSAGE value="Anonymous Inner class examples" />
     <MESSAGE value="Practising Different Inner classes ranging from memberInner, Local Inner, Static Nested , Anonymous Classes" />
     <MESSAGE value="Anonymous Class types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Class types" />
+    <MESSAGE value="Anonymous Class examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Class examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
