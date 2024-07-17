@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Class examples">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/HelloWorldAnonymousClasses.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Class revision">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousClassExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn13.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousLearn13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,8 @@
     "Application.AlarmTest.executor": "Debug",
     "Application.AnimalEx.executor": "Debug",
     "Application.AnimalNew.executor": "Debug",
+    "Application.AnonymousClassExample.executor": "Debug",
+    "Application.AnonymousClassExample1.executor": "Debug",
     "Application.AnonymousLearn.executor": "Debug",
     "Application.AnonymousLearn1.executor": "Debug",
     "Application.AnonymousLearn10.executor": "Debug",
@@ -230,7 +230,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AnonymousClassExample">
+  <component name="RunManager" selected="Application.AnonymousClassExample1">
     <configuration name="AnonymousClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousClassExample" />
       <module name="javaDaily" />
@@ -244,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousLearn11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn11" />
+    <configuration name="AnonymousClassExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousClassExample1" />
       <module name="javaDaily" />
       <extension name="coverage">
         <pattern>
@@ -298,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousClassExample1" />
         <item itemvalue="Application.AnonymousClassExample" />
         <item itemvalue="Application.HelloWorldAnonymousClasses" />
         <item itemvalue="Application.AnonymousLearn13" />
         <item itemvalue="Application.AnonymousLearn12" />
-        <item itemvalue="Application.AnonymousLearn11" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +314,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Learn about different types of exceptions">
-      <option name="closed" value="true" />
-      <created>1712769866927</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1712769866927</updated>
     </task>
     <task id="LOCAL-00048" summary="Learn about different types of exceptions">
       <option name="closed" value="true" />
@@ -707,7 +699,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720981761380</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Anonymous Class revision">
+      <option name="closed" value="true" />
+      <created>1721153585717</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1721153585717</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -722,7 +722,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Example of Static inner class" />
     <MESSAGE value="System.out.println() internal , toString() basics etc" />
     <MESSAGE value="Singleton Class basics" />
     <MESSAGE value="Singleton Class more examples" />
@@ -747,7 +746,8 @@
     <MESSAGE value="Practising Different Inner classes ranging from memberInner, Local Inner, Static Nested , Anonymous Classes" />
     <MESSAGE value="Anonymous Class types" />
     <MESSAGE value="Anonymous Class examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Class examples" />
+    <MESSAGE value="Anonymous Class revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Class revision" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
