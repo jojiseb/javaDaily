@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Class revision">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/AnonymousClasses/AnonymousClassExample1.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Anonymous Class revision 1">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/NonStaticNested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/StaticNestedClass/OuterClass3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +149,7 @@
     "Application.NestedTryCatch.executor": "Debug",
     "Application.NewEnclosing.executor": "Debug",
     "Application.NoSuchElementException.executor": "Debug",
+    "Application.NonStaticNested.executor": "Debug",
     "Application.NullPointerEx1.executor": "Debug",
     "Application.NullPointerException.executor": "Debug",
     "Application.NumberComparison.executor": "Debug",
@@ -161,6 +163,7 @@
     "Application.OuterClass.executor": "Debug",
     "Application.OuterClass1.executor": "Debug",
     "Application.OuterClass2.executor": "Debug",
+    "Application.OuterClass3.executor": "Debug",
     "Application.OuterClass6.executor": "Debug",
     "Application.Outer_Class.executor": "Debug",
     "Application.Outer_Class1.executor": "Debug",
@@ -230,7 +233,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AnonymousClassExample1">
+  <component name="RunManager" selected="Application.OuterClass3">
     <configuration name="AnonymousClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousClassExample" />
       <module name="javaDaily" />
@@ -257,32 +260,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousLearn12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn12" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonymousClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonymousLearn13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousLearn13" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonymousClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HelloWorldAnonymousClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousClasses.HelloWorldAnonymousClasses" />
       <module name="javaDaily" />
@@ -296,13 +273,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NonStaticNested" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClasses.NonStaticNested" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OuterClass3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticNestedClass.OuterClass3" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticNestedClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OuterClass3" />
+        <item itemvalue="Application.NonStaticNested" />
         <item itemvalue="Application.AnonymousClassExample1" />
         <item itemvalue="Application.AnonymousClassExample" />
         <item itemvalue="Application.HelloWorldAnonymousClasses" />
-        <item itemvalue="Application.AnonymousLearn13" />
-        <item itemvalue="Application.AnonymousLearn12" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +317,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Learn about different types of exceptions">
-      <option name="closed" value="true" />
-      <created>1712772195209</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1712772195209</updated>
     </task>
     <task id="LOCAL-00049" summary="Learn about custom exceptions">
       <option name="closed" value="true" />
@@ -707,7 +702,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721153585717</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Anonymous Class revision 1">
+      <option name="closed" value="true" />
+      <created>1721235931639</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1721235931640</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -722,7 +725,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="System.out.println() internal , toString() basics etc" />
     <MESSAGE value="Singleton Class basics" />
     <MESSAGE value="Singleton Class more examples" />
     <MESSAGE value="Eager vs Lazy initialization" />
@@ -747,7 +749,8 @@
     <MESSAGE value="Anonymous Class types" />
     <MESSAGE value="Anonymous Class examples" />
     <MESSAGE value="Anonymous Class revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Class revision" />
+    <MESSAGE value="Anonymous Class revision 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Class revision 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
