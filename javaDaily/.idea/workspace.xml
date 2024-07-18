@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Revising static nested class and inner class(non-static nested class)">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer4.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Revising local Inner classes">
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/InnerClasses/OuterClass1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,33 +234,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Outer4">
-    <configuration name="AnonymousClassExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousClasses.AnonymousClassExample1" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonymousClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonStaticNested" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.NonStaticNested" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OuterClass1">
     <configuration name="Outer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer3" />
       <module name="javaDaily" />
@@ -287,6 +261,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClasses.OuterClass" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OuterClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClasses.OuterClass1" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OuterClass3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StaticNestedClass.OuterClass3" />
       <module name="javaDaily" />
@@ -302,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OuterClass1" />
+        <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.Outer4" />
         <item itemvalue="Application.Outer3" />
         <item itemvalue="Application.OuterClass3" />
-        <item itemvalue="Application.NonStaticNested" />
-        <item itemvalue="Application.AnonymousClassExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -318,14 +318,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Revising some old concepts">
-      <option name="closed" value="true" />
-      <created>1713031372264</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1713031372264</updated>
     </task>
     <task id="LOCAL-00051" summary="Object creation, references, equating using equals()">
       <option name="closed" value="true" />
@@ -711,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721239883625</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Revising local Inner classes">
+      <option name="closed" value="true" />
+      <created>1721325799798</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1721325799798</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -726,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Singleton Class more examples" />
     <MESSAGE value="Eager vs Lazy initialization" />
     <MESSAGE value="Lazy Initialization explored, especially how it fails under multi-threaded scenario" />
     <MESSAGE value="-Learn some more examples regarding how Lazy initialization isn't thread Safe&#10;-Learn how to make singleton threadSafe using double-checked Locking principle" />
@@ -751,7 +750,8 @@
     <MESSAGE value="Anonymous Class revision" />
     <MESSAGE value="Anonymous Class revision 1" />
     <MESSAGE value="Revising static nested class and inner class(non-static nested class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revising static nested class and inner class(non-static nested class)" />
+    <MESSAGE value="Revising local Inner classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revising local Inner classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
