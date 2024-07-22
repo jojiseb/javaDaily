@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Revising local Inner classes">
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/StaticKeyword/LocalInnerClass/Outer6.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Local Inner Classes with application of instance initializer block, static block">
+      <change afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Revision/ClassAndObject/InstanceInitializer7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,10 +117,12 @@
     "Application.InnerClasses3.executor": "Debug",
     "Application.InstanceInitializer.executor": "Debug",
     "Application.InstanceInitializer1.executor": "Debug",
+    "Application.InstanceInitializer10.executor": "Debug",
     "Application.InstanceInitializer2.executor": "Debug",
     "Application.InstanceInitializer4.executor": "Debug",
     "Application.InstanceInitializer5.executor": "Debug",
     "Application.InstanceInitializer6.executor": "Debug",
+    "Application.InstanceInitializer7.executor": "Debug",
     "Application.InstanceInitializer8.executor": "Debug",
     "Application.InstanceInitializer9.executor": "Debug",
     "Application.InvalidAgeCustomException.executor": "Debug",
@@ -236,16 +239,17 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Outer6">
-    <configuration name="Outer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer4" />
+  <component name="RunManager" selected="Application.InstanceInitializer7">
+    <configuration name="InstanceInitializer10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstanceInitializer10" />
       <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LocalInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceInitializer7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstanceInitializer7" />
+      <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,19 +280,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClasses.OuterClass" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InnerClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OuterClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InnerClasses.OuterClass1" />
       <module name="javaDaily" />
@@ -304,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InstanceInitializer7" />
+        <item itemvalue="Application.InstanceInitializer10" />
         <item itemvalue="Application.Outer6" />
         <item itemvalue="Application.Outer5" />
         <item itemvalue="Application.OuterClass1" />
-        <item itemvalue="Application.OuterClass" />
-        <item itemvalue="Application.Outer4" />
       </list>
     </recent_temporary>
   </component>
@@ -320,14 +311,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Learn what will be value of Object before &amp; after initialisation">
-      <option name="closed" value="true" />
-      <created>1713180899205</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1713180899207</updated>
     </task>
     <task id="LOCAL-00053" summary="Learning Object allocation in m/y">
       <option name="closed" value="true" />
@@ -713,7 +696,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721327188474</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Local Inner Classes with application of instance initializer block, static block">
+      <option name="closed" value="true" />
+      <created>1721412412274</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1721412412274</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -728,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Eager vs Lazy initialization" />
     <MESSAGE value="Lazy Initialization explored, especially how it fails under multi-threaded scenario" />
     <MESSAGE value="-Learn some more examples regarding how Lazy initialization isn't thread Safe&#10;-Learn how to make singleton threadSafe using double-checked Locking principle" />
     <MESSAGE value="Basics of Bill Pugh Implementation" />
@@ -753,7 +743,8 @@
     <MESSAGE value="Anonymous Class revision 1" />
     <MESSAGE value="Revising static nested class and inner class(non-static nested class)" />
     <MESSAGE value="Revising local Inner classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revising local Inner classes" />
+    <MESSAGE value="Local Inner Classes with application of instance initializer block, static block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Local Inner Classes with application of instance initializer block, static block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
