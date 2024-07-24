@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Basics/JavaPackages/PackageExamples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basics/StaticKeyword" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Basics/Singleton" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Fundamentals/ClassesAndObjects" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
