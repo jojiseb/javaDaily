@@ -41,5 +41,15 @@ public class Cat {
 
     public static void main(String[] args) {
         Cat kahuna = new Cat("White", "Sad");
+        System.out.println("Color : "+kahuna.getColor());
+        System.out.println("Mood : "+kahuna.getMood());
+
+        kahuna.makeHappy();
+        System.out.println("Current Mood : "+kahuna.getMood());
+
+        //public methods make sure to provide controlled ways to interact with cat's mood
+
+        //Any changes to how mood is changed, its only made to private method changeMood() and
+        //not impacted to makeHappy()
     }
 }
