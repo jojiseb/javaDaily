@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Object and Class basic revision">
-      <change afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/Cat1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/Cat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/First.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +105,7 @@
     "Application.FinalizeTest.executor": "Debug",
     "Application.Finally2.executor": "Debug",
     "Application.FinallyExample.executor": "Debug",
+    "Application.First.executor": "Debug",
     "Application.GFG.executor": "Debug",
     "Application.HeapMemoryExample.executor": "Debug",
     "Application.HelloWorldAnonymousClasses.executor": "Debug",
@@ -241,7 +241,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Cat2">
+  <component name="RunManager" selected="Application.First">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cat" />
       <module name="javaDaily" />
@@ -251,6 +251,13 @@
     </configuration>
     <configuration name="Cat2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cat2" />
+      <module name="javaDaily" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="First" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -270,26 +277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocalInnerClass.Outer6" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LocalInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.First" />
         <item itemvalue="Application.Cat2" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.InstanceInitializer7" />
         <item itemvalue="Application.InstanceInitializer10" />
-        <item itemvalue="Application.Outer6" />
       </list>
     </recent_temporary>
   </component>
@@ -301,14 +295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Stack And Heap Memory examples">
-      <option name="closed" value="true" />
-      <created>1713463089966</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1713463089967</updated>
     </task>
     <task id="LOCAL-00056" summary="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError">
       <option name="closed" value="true" />
@@ -694,7 +680,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721845792008</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Object and Class basic revision">
+      <option name="closed" value="true" />
+      <created>1721877546048</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1721877546049</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
