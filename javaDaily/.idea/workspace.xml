@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Object and Class basic revision">
-      <change afterPath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/First.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Java primitive datatypes revision">
+      <change afterPath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/OverflowAndUnderflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/Second.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/First.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,205 +44,206 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractShape.executor": "Debug",
-    "Application.AlarmTest.executor": "Debug",
-    "Application.AnimalEx.executor": "Debug",
-    "Application.AnimalNew.executor": "Debug",
-    "Application.AnonymousClassExample.executor": "Debug",
-    "Application.AnonymousClassExample1.executor": "Debug",
-    "Application.AnonymousLearn.executor": "Debug",
-    "Application.AnonymousLearn1.executor": "Debug",
-    "Application.AnonymousLearn10.executor": "Debug",
-    "Application.AnonymousLearn11.executor": "Debug",
-    "Application.AnonymousLearn12.executor": "Debug",
-    "Application.AnonymousLearn13.executor": "Debug",
-    "Application.AnonymousLearn2.executor": "Debug",
-    "Application.AnonymousLearn3.executor": "Debug",
-    "Application.AnonymousLearn4.executor": "Debug",
-    "Application.AnonymousLearn5.executor": "Debug",
-    "Application.AnonymousLearn6.executor": "Debug",
-    "Application.AnonymousLearn7.executor": "Debug",
-    "Application.AnonymousLearn8.executor": "Debug",
-    "Application.ArithmeticException.executor": "Debug",
-    "Application.ArrayIndex.executor": "Debug",
-    "Application.Base.executor": "Debug",
-    "Application.BestPractice.executor": "Debug",
-    "Application.BikeMain.executor": "Debug",
-    "Application.Calculator.executor": "Debug",
-    "Application.Car.executor": "Debug",
-    "Application.Cat.executor": "Debug",
-    "Application.Cat2.executor": "Debug",
-    "Application.CatchException.executor": "Debug",
-    "Application.CheckedException.FileProcessor.executor": "Debug",
-    "Application.ConcurrentModificationException.executor": "Debug",
-    "Application.Configurator.executor": "Debug",
-    "Application.Country.executor": "Debug",
-    "Application.CustomException1.executor": "Debug",
-    "Application.CustomTestException.executor": "Debug",
-    "Application.Data.executor": "Debug",
-    "Application.DefaultTest.executor": "Debug",
-    "Application.Demo.executor": "Debug",
-    "Application.DemoCheck.executor": "Debug",
-    "Application.Department.executor": "Debug",
-    "Application.EmployeeFinalize.executor": "Debug",
-    "Application.Example.executor": "Debug",
-    "Application.Example1.executor": "Debug",
-    "Application.ExceptionCallStackExample.executor": "Debug",
-    "Application.ExceptionCallStackExample1.executor": "Debug",
-    "Application.ExceptionHandling.executor": "Debug",
-    "Application.ExceptionInFinalize.executor": "Debug",
-    "Application.ExceptionNotHandled.executor": "Debug",
-    "Application.FileCheck.executor": "Debug",
-    "Application.FileCheck1.executor": "Debug",
-    "Application.FileNotFoundEx1.executor": "Debug",
-    "Application.FileProcessor.executor": "Debug",
-    "Application.FinalizationNumber.executor": "Debug",
-    "Application.FinalizeAsNormal.executor": "Debug",
-    "Application.FinalizeDemo.executor": "Debug",
-    "Application.FinalizeEx1.executor": "Debug",
-    "Application.FinalizeExplicit.executor": "Debug",
-    "Application.FinalizeTest.executor": "Debug",
-    "Application.Finally2.executor": "Debug",
-    "Application.FinallyExample.executor": "Debug",
-    "Application.First.executor": "Debug",
-    "Application.GFG.executor": "Debug",
-    "Application.HeapMemoryExample.executor": "Debug",
-    "Application.HelloWorldAnonymousClasses.executor": "Debug",
-    "Application.HelperTest.executor": "Debug",
-    "Application.ImplementingAInterface.executor": "Debug",
-    "Application.ImportTest.executor": "Debug",
-    "Application.ImportUserDefinedEx.executor": "Debug",
-    "Application.InnerClasses.executor": "Debug",
-    "Application.InnerClasses1.executor": "Debug",
-    "Application.InnerClasses2.executor": "Debug",
-    "Application.InnerClasses3.executor": "Debug",
-    "Application.InstanceInitializer.executor": "Debug",
-    "Application.InstanceInitializer1.executor": "Debug",
-    "Application.InstanceInitializer10.executor": "Debug",
-    "Application.InstanceInitializer2.executor": "Debug",
-    "Application.InstanceInitializer4.executor": "Debug",
-    "Application.InstanceInitializer5.executor": "Debug",
-    "Application.InstanceInitializer6.executor": "Debug",
-    "Application.InstanceInitializer7.executor": "Debug",
-    "Application.InstanceInitializer8.executor": "Debug",
-    "Application.InstanceInitializer9.executor": "Debug",
-    "Application.InvalidAgeCustomException.executor": "Debug",
-    "Application.LazyInitializationSecond.executor": "Debug",
-    "Application.LazyInitializationUsingThread.executor": "Debug",
-    "Application.LifeTimeOfFinalizedObject.executor": "Debug",
-    "Application.LocalInnerClass.Outer.executor": "Debug",
-    "Application.Main.executor": "Debug",
-    "Application.Main1.executor": "Debug",
-    "Application.Main2.executor": "Debug",
-    "Application.Main3.executor": "Debug",
-    "Application.MainOne.executor": "Debug",
-    "Application.MainPart2.executor": "Debug",
-    "Application.MainPart3.executor": "Debug",
-    "Application.MainPart4.executor": "Debug",
-    "Application.MainStudent.executor": "Debug",
-    "Application.MainTest.executor": "Debug",
-    "Application.Marksheet.executor": "Debug",
-    "Application.MemberInner.executor": "Debug",
-    "Application.MemoryAllocationEx.executor": "Debug",
-    "Application.MultiCatch1.executor": "Debug",
-    "Application.MultiCatch2.executor": "Debug",
-    "Application.NamedClass.executor": "Debug",
-    "Application.NamedClass2.executor": "Debug",
-    "Application.NamedClass3.executor": "Debug",
-    "Application.NamedClass4.executor": "Debug",
-    "Application.NestedTryCatch.executor": "Debug",
-    "Application.NewEnclosing.executor": "Debug",
-    "Application.NoSuchElementException.executor": "Debug",
-    "Application.NonStaticNested.executor": "Debug",
-    "Application.NullPointerEx1.executor": "Debug",
-    "Application.NullPointerException.executor": "Debug",
-    "Application.NumberComparison.executor": "Debug",
-    "Application.NumberComparison1.executor": "Debug",
-    "Application.OutOfMemoryDemo1.executor": "Debug",
-    "Application.OutOfMemoryException.executor": "Debug",
-    "Application.Outer.executor": "Debug",
-    "Application.Outer1.executor": "Debug",
-    "Application.Outer2.executor": "Debug",
-    "Application.Outer3.executor": "Debug",
-    "Application.Outer4.executor": "Debug",
-    "Application.Outer5.executor": "Debug",
-    "Application.Outer6.executor": "Debug",
-    "Application.OuterClass.executor": "Debug",
-    "Application.OuterClass1.executor": "Debug",
-    "Application.OuterClass2.executor": "Debug",
-    "Application.OuterClass3.executor": "Debug",
-    "Application.OuterClass6.executor": "Debug",
-    "Application.Outer_Class.executor": "Debug",
-    "Application.Outer_Class1.executor": "Debug",
-    "Application.Outer_Class2.executor": "Debug",
-    "Application.Outer_Class3.executor": "Debug",
-    "Application.Outer_Class4.executor": "Debug",
-    "Application.Outer_Class5.executor": "Debug",
-    "Application.PrimitiveEx.executor": "Debug",
-    "Application.Runnable1.executor": "Debug",
-    "Application.SenderTest.executor": "Debug",
-    "Application.ShapeInterface.executor": "Debug",
-    "Application.ShapeNew.executor": "Debug",
-    "Application.SingletonTest.BillPughSingleton.Main.executor": "Debug",
-    "Application.SingletonTest.BillPughSingleton.Main1.executor": "Debug",
-    "Application.SingletonTest.Eager.Main.executor": "Debug",
-    "Application.SingletonTest.Eager.Main2.executor": "Debug",
-    "Application.SingletonTest.Lazy.Main.executor": "Debug",
-    "Application.SingletonTest.Main.executor": "Debug",
-    "Application.SingletonTest.ThreadSafe.Main1.executor": "Debug",
-    "Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main.executor": "Debug",
-    "Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main1.executor": "Debug",
-    "Application.SleepTest.executor": "Debug",
-    "Application.SquareRoot.executor": "Debug",
-    "Application.StackMemoryExample.executor": "Debug",
-    "Application.StackOverflowExample.executor": "Debug",
-    "Application.StaticAndFinal.executor": "Debug",
-    "Application.StaticAnonymousExample.executor": "Debug",
-    "Application.StaticBlock1.executor": "Debug",
-    "Application.StaticBlock2.executor": "Debug",
-    "Application.StaticDefault1.executor": "Debug",
-    "Application.StaticExecutionOrder.executor": "Debug",
-    "Application.StaticKeywordExample.executor": "Debug",
-    "Application.StaticMethod1.executor": "Debug",
-    "Application.StaticMethod2.executor": "Debug",
-    "Application.StaticMethod3.executor": "Debug",
-    "Application.StaticMethod4.executor": "Debug",
-    "Application.StaticTest.executor": "Debug",
-    "Application.StaticTest2.executor": "Debug",
-    "Application.StaticVariable1.executor": "Debug",
-    "Application.Student.executor": "Debug",
-    "Application.SubjectTest.executor": "Debug",
-    "Application.ThrowEx1.executor": "Debug",
-    "Application.ThrowEx2.executor": "Debug",
-    "Application.ThrowExample.executor": "Debug",
-    "Application.ThrowExample1.executor": "Debug",
-    "Application.ThrowsDemo.executor": "Debug",
-    "Application.ThrowsDemo1.executor": "Debug",
-    "Application.ThrowsEx1.executor": "Debug",
-    "Application.ThrowsEx2.executor": "Debug",
-    "Application.ThrowsExample.executor": "Debug",
-    "Application.ThrowsExample2.executor": "Debug",
-    "Application.TryCatch_1.executor": "Debug",
-    "Application.UtilityClassEx.executor": "Debug",
-    "Application.VectorEx.executor": "Debug",
-    "Application.Vehicle.executor": "Debug",
-    "Application.VehicleCheck.executor": "Debug",
-    "Application.WIthInstanceInitializer.executor": "Debug",
-    "Application.Which.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/asus/codecrafters-http-server-java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractShape.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AlarmTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnimalEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnimalNew.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousClassExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousClassExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn10.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn11.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn12.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn13.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn5.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn6.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn7.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AnonymousLearn8.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArithmeticException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ArrayIndex.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Base.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BestPractice.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BikeMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Car.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Cat.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Cat2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CatchException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CheckedException.FileProcessor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ConcurrentModificationException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Configurator.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Country.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CustomException1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CustomTestException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Data.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DefaultTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DemoCheck.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Department.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EmployeeFinalize.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Example1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionCallStackExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionCallStackExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionHandling.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionInFinalize.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionNotHandled.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileCheck.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileCheck1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileNotFoundEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FileProcessor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizationNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeAsNormal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeExplicit.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinalizeTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Finally2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FinallyExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.First.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GFG.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HeapMemoryExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HelloWorldAnonymousClasses.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HelperTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ImplementingAInterface.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ImportTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ImportUserDefinedEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InnerClasses3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer10.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer5.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer6.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer7.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer8.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InstanceInitializer9.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.InvalidAgeCustomException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LazyInitializationSecond.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LazyInitializationUsingThread.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LifeTimeOfFinalizedObject.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LocalInnerClass.Outer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainOne.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainPart2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainPart3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainPart4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainStudent.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Marksheet.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MemberInner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MemoryAllocationEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MultiCatch1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MultiCatch2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NamedClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NamedClass2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NamedClass3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NamedClass4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NestedTryCatch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NewEnclosing.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NoSuchElementException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NonStaticNested.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NullPointerEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NullPointerException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumberComparison.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumberComparison1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OutOfMemoryDemo1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OutOfMemoryException.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer5.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer6.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OuterClass.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OuterClass1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OuterClass2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OuterClass3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OuterClass6.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer_Class.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer_Class1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer_Class2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer_Class3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer_Class4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Outer_Class5.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OverflowAndUnderflow.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PrimitiveEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Runnable1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SenderTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ShapeInterface.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ShapeNew.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.BillPughSingleton.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.BillPughSingleton.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Eager.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Eager.Main2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Lazy.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.ThreadSafe.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SingletonTest.ThreadSafe_DoubleCheckLock.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SleepTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SquareRoot.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StackMemoryExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StackOverflowExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticAndFinal.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticAnonymousExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticBlock1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticBlock2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticDefault1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticExecutionOrder.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticKeywordExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticMethod1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticMethod2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticMethod3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticMethod4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticTest2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StaticVariable1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SubjectTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowEx2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowExample1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsDemo1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsEx1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsEx2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThrowsExample2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TryCatch_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UtilityClassEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VectorEx.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Vehicle.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.VehicleCheck.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.WIthInstanceInitializer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Which.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/codecrafters-http-server-java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.First">
+}</component>
+  <component name="RunManager" selected="Application.OverflowAndUnderflow">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cat" />
       <module name="javaDaily" />
@@ -263,13 +265,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInitializer10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InstanceInitializer10" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InstanceInitializer7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InstanceInitializer7" />
       <module name="javaDaily" />
@@ -277,13 +272,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OverflowAndUnderflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OverflowAndUnderflow" />
+      <module name="javaDaily" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverflowAndUnderflow" />
         <item itemvalue="Application.First" />
         <item itemvalue="Application.Cat2" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.InstanceInitializer7" />
-        <item itemvalue="Application.InstanceInitializer10" />
       </list>
     </recent_temporary>
   </component>
@@ -295,14 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Learn more about stack and heap memory&#10;&#10;Did some examples causing errors related to stack and heap like StackOverflowError and OutOfMemoryError">
-      <option name="closed" value="true" />
-      <created>1713509707495</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1713509707495</updated>
     </task>
     <task id="LOCAL-00057" summary="Start learn about Wrapper classes">
       <option name="closed" value="true" />
@@ -688,7 +682,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721877546049</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Java primitive datatypes revision">
+      <option name="closed" value="true" />
+      <created>1721929620957</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1721929620958</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -703,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Basics of Bill Pugh Implementation" />
     <MESSAGE value="Eager Initialization repetition" />
     <MESSAGE value="Lazy Initialization example" />
     <MESSAGE value="Singleton examples" />
@@ -728,7 +729,8 @@
     <MESSAGE value="Local Inner Classes with application of instance initializer block, static block" />
     <MESSAGE value="Instance initializer block examples" />
     <MESSAGE value="Object and Class basic revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object and Class basic revision" />
+    <MESSAGE value="Java primitive datatypes revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java primitive datatypes revision" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
