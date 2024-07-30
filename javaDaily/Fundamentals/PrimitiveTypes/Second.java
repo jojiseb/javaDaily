@@ -17,6 +17,26 @@ public class Second {
 
             // Occupies 64-bits in m/y --> 8 bytes
 
+        double dou = 435.96659865893948953424; //For handling vast floating point numbers, which
+                                //can't be handled by float datatype
 
+        System.out.println(dou); //435.9665986589395
+
+        //double is used when high precision is required
+        //More precise than float
+
+            //Occupies 64-bits in m/y --> 8 bytes
+            //Provides 15-16 digits of precision
+
+        float fl = 3454.6657759f;
+
+        //Occupies 32-bits in m/y --> 4 bytes
+        //Provides 6-7 digits of precision
+
+        System.out.println(fl); //3454.6658
+
+        //float is more performant compared to double
+
+        //Use float when m/y is a concern and high performance is required
     }
 }
