@@ -1,0 +1,11 @@
+
+Primitive data-types exhibit the wrap-around behaviour for overflow and underflow
+due to their direct mapping to low-level hardware operations.
+
+This is a design choice made for efficiency and simplicity
+
+Higher level numerical types like bIgDecimal and BigInteger don't wrap around. They provide arbitrary precision, explicit error handling
+to mange large numbers and exceptional cases safely
+
+Higher level abstractions can handle additional complexity of checks and isn't forced to have same performance as that of
+primitive types
