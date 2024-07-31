@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Multiple Overflow, Underflow examples&#10;Learnt how overflow and underflow happens to different primitive types">
-      <change afterPath="$PROJECT_DIR$/Fundamentals/PrimitiveTypes/OverflowAndUnderflow" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Why only Primitive types wrap-around ?">
+      <change afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/DemoClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +83,7 @@
     "Application.DefaultTest.executor": "Debug",
     "Application.Demo.executor": "Debug",
     "Application.DemoCheck.executor": "Debug",
+    "Application.DemoClass.executor": "Debug",
     "Application.Department.executor": "Debug",
     "Application.EmployeeFinalize.executor": "Debug",
     "Application.Example.executor": "Debug",
@@ -243,9 +244,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumericOverflowUnderflowExample">
-    <configuration name="Cat2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cat2" />
+  <component name="RunManager" selected="Application.DemoClass">
+    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoClass" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoClass" />
         <item itemvalue="Application.NumericOverflowUnderflowExample" />
         <item itemvalue="Application.Second" />
         <item itemvalue="Application.OverflowAndUnderflow" />
         <item itemvalue="Application.First" />
-        <item itemvalue="Application.Cat2" />
       </list>
     </recent_temporary>
   </component>
@@ -297,14 +298,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Learn about java packages, how they are related to directories">
-      <option name="closed" value="true" />
-      <created>1713754302223</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1713754302224</updated>
     </task>
     <task id="LOCAL-00060" summary="Learn java packages in detail...Learnt is heard">
       <option name="closed" value="true" />
@@ -690,7 +683,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722363009380</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Why only Primitive types wrap-around ?">
+      <option name="closed" value="true" />
+      <created>1722363401725</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1722363401725</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -705,7 +706,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Singleton examples" />
     <MESSAGE value="-Learn something xtra - Using ENUM for Singleton which is more faster, easy to define etc.&#10;- Some more examples in detail for Singleton" />
     <MESSAGE value="Bill Pugh Singleton and static keyword practice" />
     <MESSAGE value="Revising Static keyword, Instance Initializer etc" />
@@ -730,7 +730,8 @@
     <MESSAGE value="Java primitive datatypes revision" />
     <MESSAGE value="Learnt about overflow, underflow" />
     <MESSAGE value="Multiple Overflow, Underflow examples&#10;Learnt how overflow and underflow happens to different primitive types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple Overflow, Underflow examples&#10;Learnt how overflow and underflow happens to different primitive types" />
+    <MESSAGE value="Why only Primitive types wrap-around ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Why only Primitive types wrap-around ?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
