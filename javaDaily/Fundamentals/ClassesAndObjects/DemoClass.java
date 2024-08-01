@@ -63,11 +63,13 @@ public class DemoClass {
             System.out.println("s4 hashCode : "+dc.s4.hashCode());
         }
 
-        //So, Object.equals() looks for null heck first before comparing the content
+        //So, Object.equals() looks for null first before comparing the content
 
         System.out.println("String equals() ..");
         if(dc.s1.equals(dc.s2)) { //Checks for the content only, doesn't look for
             System.out.println("equal");        //reference or memory location
+            System.out.println("s1 hash : "+dc.s1.hashCode());
+            System.out.println("s2 hash : "+dc.s2.hashCode());
         }
         else {
             System.out.println("Not equal");
@@ -79,11 +81,41 @@ public class DemoClass {
 
         if(dc.s1.equals(dc.s4)) { //equal since we are comparing using content
             System.out.println("Equal");
+            System.out.println("s1 hash : "+dc.s1.hashCode());
+            System.out.println("s4 hash : "+dc.s4.hashCode());
         }
         else {
             System.out.println("Not equal");
             System.out.println("s1 hash : "+dc.s1.hashCode());
             System.out.println("s4 hash : "+dc.s4.hashCode());
+        }
+
+        System.out.println();
+
+        if(dc.s1.equals(dc.s3)) {
+            System.out.println("Equal");
+            System.out.println("s1 hashCode : "+dc.s1.hashCode());
+            System.out.println("s3 hashCode : "+dc.s3.hashCode());
+        }
+        else {
+            System.out.println("Not equal");
+            System.out.println("s1 hashCode : "+dc.s1.hashCode());
+            System.out.println("s3 hashCode : "+dc.s3.hashCode());
+        }
+
+        System.out.println();
+
+        System.out.println("Comparison using == operator");
+
+        if(dc.s1 == dc.s2) {  //Will be Not Equal since, == checks for reference and reference of
+            System.out.println("Equal");        //String created using new keyword will be different than String literal
+            System.out.println("s1 hashCode : "+dc.s1.hashCode()); //. So, it will be false/un-equal even though content is same
+            System.out.println("s2 hashCode : "+dc.s2.hashCode());
+        }
+        else {
+            System.out.println("N't equal");
+            System.out.println("s1 hashCode : "+dc.s1.hashCode());
+            System.out.println("s2 hashCode : "+dc.s2.hashCode());
         }
     }
 }

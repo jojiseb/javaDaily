@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Why only Primitive types wrap-around ?">
-      <change afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/DemoClass.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="Types of comparison for String types - == , String.equals() , Objects.equals(), String.compareTo() especially what and when to use each">
+      <change afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/StringComparison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/ClassesAndObjects/DemoClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +215,7 @@
     "Application.StaticTest.executor": "Debug",
     "Application.StaticTest2.executor": "Debug",
     "Application.StaticVariable1.executor": "Debug",
+    "Application.StringComparison.executor": "Debug",
     "Application.Student.executor": "Debug",
     "Application.SubjectTest.executor": "Debug",
     "Application.ThrowEx1.executor": "Debug",
@@ -244,16 +246,9 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoClass">
+  <component name="RunManager" selected="Application.StringComparison">
     <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoClass" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="First" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,13 +275,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringComparison" />
+      <module name="javaDaily" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringComparison" />
         <item itemvalue="Application.DemoClass" />
         <item itemvalue="Application.NumericOverflowUnderflowExample" />
         <item itemvalue="Application.Second" />
         <item itemvalue="Application.OverflowAndUnderflow" />
-        <item itemvalue="Application.First" />
       </list>
     </recent_temporary>
   </component>
@@ -298,14 +300,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Learn java packages in detail...Learnt is heard">
-      <option name="closed" value="true" />
-      <created>1713894499376</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1713894499376</updated>
     </task>
     <task id="LOCAL-00061" summary="Add User-defined packages&#10;-Analysed what makes them different from java based pkgs&#10;-Learnt different ways to import a package">
       <option name="closed" value="true" />
@@ -691,7 +685,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722363401725</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Types of comparison for String types - == , String.equals() , Objects.equals(), String.compareTo() especially what and when to use each">
+      <option name="closed" value="true" />
+      <created>1722449027854</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1722449027854</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -706,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-Learn something xtra - Using ENUM for Singleton which is more faster, easy to define etc.&#10;- Some more examples in detail for Singleton" />
     <MESSAGE value="Bill Pugh Singleton and static keyword practice" />
     <MESSAGE value="Revising Static keyword, Instance Initializer etc" />
     <MESSAGE value="NamedClass vs Anonymous Class" />
@@ -731,7 +732,8 @@
     <MESSAGE value="Learnt about overflow, underflow" />
     <MESSAGE value="Multiple Overflow, Underflow examples&#10;Learnt how overflow and underflow happens to different primitive types" />
     <MESSAGE value="Why only Primitive types wrap-around ?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Why only Primitive types wrap-around ?" />
+    <MESSAGE value="Types of comparison for String types - == , String.equals() , Objects.equals(), String.compareTo() especially what and when to use each" />
+    <option name="LAST_COMMIT_MESSAGE" value="Types of comparison for String types - == , String.equals() , Objects.equals(), String.compareTo() especially what and when to use each" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
