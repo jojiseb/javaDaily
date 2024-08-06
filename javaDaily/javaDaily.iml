@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Basics/Singleton" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Fundamentals/ClassesAndObjects" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Fundamentals/PrimitiveTypes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Fundamentals/Interface" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

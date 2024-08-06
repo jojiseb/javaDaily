@@ -166,5 +166,31 @@ public class StringComparison {
         else {
             System.out.println("One < Pna"); //1st Character in 2nd String > 1st Character in 1st String
         }
+
+        System.out.println();
+        int r4 = "BCA".compareTo("MCA"); //B in BCA is < M in MCA
+
+        if(r4 > 0) {
+            System.out.println("BCA > MCA");
+        }
+        else if(r4 == 0) {
+            System.out.println("BCA = MCA");
+        }
+        else {
+            System.out.println("BCA < MCA");
+        }
+
+        System.out.println();
+        int r5 = "CB".compareTo("CC"); //2nd Character's are compared since 1st of both are same
+                                    //B in CB < C in CC
+        if(r5 > 0) {
+            System.out.println("CB > CC");
+        }
+        else if(r5 == 0) {
+            System.out.println("CB == CC");
+        }
+        else {
+            System.out.println("CB < CC");
+        }
     }
 }
