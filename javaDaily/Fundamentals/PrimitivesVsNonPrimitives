@@ -1,0 +1,33 @@
+
+Origin:
+    Primitive types are innately defined in Java.
+    Non-Primitive types are mostly User-defined, with some exceptions such as String
+
+Value Storage:
+    Primitive types are designed to hold single values, So they are memory efficient
+    Size of primitive types are fixed
+
+    Non-Primitive types / reference types are designed to store multiple values
+    They are allocated on heap, and their size can grow dynamically as needed.
+    Memory management, including allocation and garbage collection, introducing additional
+    overhead
+
+Operations:
+--->Operations on primitive data types are usually straightforward, directly supported by processor
+    which makes them faster.
+
+    Eg: There is direct support for basic arithmetic operations like addition, subtraction,
+        multiplication, division on integer or floating-point types.
+
+        Since they are built-in, they are executed quickly. So, Minimal overhead in terms of m/y and processing
+
+    These Operations displayed predictable behaviour.
+
+    Eg: Adding 2 integers results in another integer, comparing 2 characters results in boolean
+
+    So, No hidden m/y allocations or complex object manipulations happen in primitive types
+
+--->Operations on Non-primitive types often involves method calls, more complex logic, m/y allocation,
+    leading to high computational overhead.
+
+
