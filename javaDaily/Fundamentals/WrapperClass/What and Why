@@ -1,0 +1,5 @@
+Wrapper Class
+
+    In Java, We have a Wrapper Class for every primitive type.
+    Basically its for providing programmers with useful processing methods, without the overhead of having everything as a heavyweight object reference.
+

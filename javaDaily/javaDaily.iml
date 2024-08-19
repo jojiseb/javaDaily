@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Fundamentals/PrimitiveTypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Fundamentals/Interface" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Fundamentals/TypeCasting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Fundamentals/WrapperClass" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

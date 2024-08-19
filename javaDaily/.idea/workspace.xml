@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="- Interface examples">
-      <change afterPath="$PROJECT_DIR$/Fundamentals/TypeCasting/ImplicitAndExplicit/ImplicitAndExplicit1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentals/TypeCasting/ImplicitAndExplicit/ImplicitAndExplicit2.java" afterDir="false" />
+    <list default="true" id="1eaab461-3d97-44a0-8714-50ed81dea9bd" name="Changes" comment="implicitAndExplicit casting examples , types of conversions :&#10;-Widening&#10;-Narrowing&#10;-Widening and narrowing">
+      <change afterPath="$PROJECT_DIR$/Fundamentals/TypeCasting/ImplicitAndExplicit/ImplicitAndExplicit3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals/TypeCasting/ImplicitAndExplicit/ImplicitAndExplicit4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals/WrapperClass/What and Why" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fundamentals/WrapperClass/WrapperClassEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/Interface/LandAndWaterAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Interface/LandAndWaterAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/TypeCasting/ImplicitAndExplicit/ImplicitAndExplicit2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/TypeCasting/ImplicitAndExplicit/ImplicitAndExplicit2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaDaily.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +130,8 @@
     "Application.ImplementingAInterface.executor": "Debug",
     "Application.ImplicitAndExplicit1.executor": "Debug",
     "Application.ImplicitAndExplicit2.executor": "Debug",
+    "Application.ImplicitAndExplicit3.executor": "Debug",
+    "Application.ImplicitAndExplicit4.executor": "Debug",
     "Application.ImportTest.executor": "Debug",
     "Application.ImportUserDefinedEx.executor": "Debug",
     "Application.InnerClasses.executor": "Debug",
@@ -251,12 +254,14 @@
     "Application.ThrowsExample.executor": "Debug",
     "Application.ThrowsExample2.executor": "Debug",
     "Application.TryCatch_1.executor": "Debug",
+    "Application.Unboxing.executor": "Debug",
     "Application.UtilityClassEx.executor": "Debug",
     "Application.VectorEx.executor": "Debug",
     "Application.Vehicle.executor": "Debug",
     "Application.VehicleCheck.executor": "Debug",
     "Application.WIthInstanceInitializer.executor": "Debug",
     "Application.Which.executor": "Debug",
+    "Application.WrapperClassEx1.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -268,20 +273,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ImplicitAndExplicit2">
-    <configuration name="ImplicitAndExplicit1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplicitAndExplicit.ImplicitAndExplicit1" />
-      <module name="javaDaily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ImplicitAndExplicit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WrapperClassEx1">
     <configuration name="ImplicitAndExplicit2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImplicitAndExplicit.ImplicitAndExplicit2" />
       <module name="javaDaily" />
@@ -295,22 +287,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandAndWaterAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LandAndWaterAnimal" />
+    <configuration name="ImplicitAndExplicit3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplicitAndExplicit.ImplicitAndExplicit3" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImplicitAndExplicit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplicitAndExplicit4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplicitAndExplicit.ImplicitAndExplicit4" />
+      <module name="javaDaily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImplicitAndExplicit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unboxing" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operations1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operations1" />
-      <module name="javaDaily" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solve" />
+    <configuration name="WrapperClassEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WrapperClassEx1" />
       <module name="javaDaily" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WrapperClassEx1" />
+        <item itemvalue="Application.Unboxing" />
+        <item itemvalue="Application.ImplicitAndExplicit4" />
+        <item itemvalue="Application.ImplicitAndExplicit3" />
         <item itemvalue="Application.ImplicitAndExplicit2" />
-        <item itemvalue="Application.ImplicitAndExplicit1" />
-        <item itemvalue="Application.LandAndWaterAnimal" />
-        <item itemvalue="Application.Operations1" />
-        <item itemvalue="Application.Solve" />
       </list>
     </recent_temporary>
   </component>
@@ -334,14 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709314114792</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Static variable Car example">
-      <option name="closed" value="true" />
-      <created>1714214438086</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1714214438088</updated>
     </task>
     <task id="LOCAL-00066" summary="Static variables and cars example">
       <option name="closed" value="true" />
@@ -727,7 +730,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723055758304</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="implicitAndExplicit casting examples , types of conversions :&#10;-Widening&#10;-Narrowing&#10;-Widening and narrowing">
+      <option name="closed" value="true" />
+      <created>1723574365755</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1723574365755</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -742,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Static , Abstract classes" />
     <MESSAGE value="Abstract class vs interface examples" />
     <MESSAGE value="Learn about static inner classes, static block" />
     <MESSAGE value="Local Inner class basics, especially why does the local variables inside method needs to be final or effectively final" />
@@ -767,7 +777,8 @@
     <MESSAGE value="Practised some more of String comparisons, Did different types including compareTo(), Objects.equals() etc" />
     <MESSAGE value=" - String interning, why it happens&#10; - Manual String interning&#10; - String comparison examples&#10; - Interface and polymorphism basics&#10; - Interface examples" />
     <MESSAGE value="- Interface examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Interface examples" />
+    <MESSAGE value="implicitAndExplicit casting examples , types of conversions :&#10;-Widening&#10;-Narrowing&#10;-Widening and narrowing" />
+    <option name="LAST_COMMIT_MESSAGE" value="implicitAndExplicit casting examples , types of conversions :&#10;-Widening&#10;-Narrowing&#10;-Widening and narrowing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -23,7 +23,7 @@ public class ImplicitAndExplicit2 {
 
         int intValue = by;
 
-        System.out.println("int i : "+intValue);
+        System.out.println("int intValue : "+intValue);
 
         char newChar = (char) intValue;
 
@@ -54,6 +54,33 @@ public class ImplicitAndExplicit2 {
         System.out.println("char value , ct : "+ct);
 
         System.out.println("New Char : "+(int) rt);
+
+
+        //Another example of byte converted to int,
+
+        System.out.println();
+
+        byte s = (byte) 130; //explicit conversion here, since 130 exceeds byte range
+                            //-128 to 127
+
+        System.out.println("byte s : "+s);
+
+        int num = s;
+
+        System.out.println("Int value num : "+num);
+
+        char c = (char) s; //Widen to int happens internally and then narrowed down to char
+
+        //This happens because there is difference between signed-ness and bit-range of both types
+        //byte and char. byte is 8-bit signed and char is 16-bit un-signed
+
+        //byte widens first to int since char can't directly hold its signed value due to its unsigned-ness.
+        //In next step, it is narrowed down from int to char
+        //Now, this involves byte stored in int converted to char
+        System.out.println("char c : "+c);
+
+        System.out.println("char value as int : "+(int) c);
+
 
     }
 }
