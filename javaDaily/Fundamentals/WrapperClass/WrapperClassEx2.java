@@ -2,6 +2,7 @@ import com.sun.org.apache.xml.internal.security.algorithms.implementations.Integ
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class WrapperClassEx2 {
     public static void main(String[] args) {
@@ -163,5 +164,76 @@ public class WrapperClassEx2 {
 
         int br = Boolean.compare(b1, b2);
 
+        System.out.println("br : "+br);     //returns 0 if both are either true / false
+                                            //        1 if b1 is true and b2 is false
+                                            //       -1 if b1 is false and b2 is true
+
+        boolean b3 = false;
+        boolean b4 = false;
+
+        int o = Boolean.compare(b3, b4);
+
+        System.out.println("o : "+o); //0 Since both are false
+
+        int q = 77;
+        int a = 77;
+
+        int k = Integer.compare(q,a);
+
+        System.out.println("k : "+k);   //0 Since, q == a
+
+        int j = 33;
+        int n = 90;
+
+        int er = Integer.compare(j,n); //Use compare() to compare both primitives
+        System.out.println("er : "+er); //-1 Since , j <
+
+        Integer p = Integer.valueOf(78);
+        Integer x = Integer.valueOf(79);
+
+        int c = p.compareTo(x); //To compare 2 objects
+
+        System.out.println("c : "+c); //-1 Since p < x
+
+        boolean test = Objects.equals(p,x); //returns true if both arguments are equal to each other
+
+        System.out.println("test : "+test); //true
+
+        boolean me = Objects.equals(false, true);
+        System.out.println("me : "+me); //false since both are not same
+
+        long la = 7834858785478L;
+        long ls = 76L;
+
+        int nm = Long.compare(la, ls); //returns 0 if la ==ls
+                                      //        -1 if la < ls
+                                      //         1 if la > ls
+
+        System.out.println("nm : "+nm); //1
+
+        Double rt = 446.4565579839489;
+        Double mb = 343.4757907879788;
+
+        int bm = rt.compareTo(mb); //compares 2 wrapper objects
+
+        System.out.println("bm : "+bm); //1 Since rt > mb
+
+        int hj = 56;
+        int op = 90;
+        int maximum = Integer.max(hj, op); //Compares 2 primitives and return the maximum if one is larger than other
+                                                //else return the same number if both are equal
+
+        System.out.println("Maximum : "+maximum);
+
+        int vb = 50;
+        int xc = 50;
+
+        int maxItem = Integer.max(vb,xc); //50 since both are same
+
+        System.out.println("Max Item : "+maxItem);
+
+        int min = Integer.min(op,hj);
+
+        System.out.println("min : "+min);
     }
 }
